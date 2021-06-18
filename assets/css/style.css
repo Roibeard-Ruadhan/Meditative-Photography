@@ -8,4 +8,20 @@
 
 body {
     font-family: 'GFS Didot', sans-serif;
+    color: #3a3a3a;
+
+}
+
+/*headings & logo */
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
+}
+
+logo {
+    float: left;
+    font-size: 300%;
 }
