@@ -8,7 +8,7 @@
 
 body {
     font-family: 'GFS Didot', sans-serif;
-    color: #3a3a3a;
+    color:slategrey;
 
 }
 
@@ -22,6 +22,33 @@ h1, h2, h3 {
 }
 
 logo {
-    float: left;
+    float: none;
     font-size: 300%;
+    margin-left: auto;
+}
+
+/* navigaton links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid slategray;
+}
+
+.active {
+    border-bottom: 1px solid slategray;
 }
