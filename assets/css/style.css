@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Viaoda+Libre&display=swap');
 
 * {
-    padding: 0;
+    padding: 1px;
     margin: 0;
     border: none;
 }
@@ -15,16 +15,15 @@ body {
 /*headings & logo */
 
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Viaoda Libre', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
-logo {
-    float:none
-    font-size: 300%;
-    margin-left: auto;
+#logo {
+    font-size: 250%;
+    margin-left: 400px;
 }
 
 /* navigaton links */
@@ -105,4 +104,14 @@ logo {
     right: 120px;
     
     position: absolute;
+}
+
+/* Introduction to paragraghs at breaks between images */
+
+#part-one {
+    height: 300px;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin: 0 auto;
 }
