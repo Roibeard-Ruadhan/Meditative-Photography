@@ -8,7 +8,7 @@
 
 body {
     font-family: 'GFS Didot', sans-serif;
-    color:slategrey;
+    color:rgb(14, 22, 22);
 
 }
 
@@ -18,7 +18,6 @@ h1, h2, h3 {
     font-family: 'Viaoda Libre', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
 }
 
 #logo {
@@ -58,7 +57,6 @@ h1, h2, h3 {
     height: 600px;
     width:100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -87,18 +85,18 @@ h1, h2, h3 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: inherit;
     text-transform: uppercase;
     letter-spacing: 4px;
-
-    width: 250px;
+    text-align: center;
+    width: 330px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 100px;
     padding-left: 10px;
 
-    background-color: rgba(241, 160, 407, .7);
+    background-color: rgba(0, 19, 47, 0.7);
     
     bottom: 30px;
     right: 120px;
@@ -108,10 +106,15 @@ h1, h2, h3 {
 
 /* Introduction to paragraghs at breaks between images */
 
-#part-one {
+#p-one {
     height: 300px;
     width: 50%;
     margin-left: 400px;
-    margin-top: 50px;
-    margin: 0 auto;
+    margin: 100px 0; /*fix margin */
+    margin: 0 auto; 
+}
+
+.p-structure {
+    line-height: 35px;
+    text-align: center;
 }
