@@ -17,7 +17,7 @@ body {
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: #252525;
 }
 
@@ -31,7 +31,7 @@ logo {
 
 #menu {
     font-size: 120%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 #menu li {
@@ -53,12 +53,18 @@ logo {
     border-bottom: 1px solid slategray;
 }
 
-/* hero image */
+/* hero image & cover text*/
 
 #hero-outer {
     height: 600px;
     width:100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff
 }
 
 #hero-image {
@@ -67,7 +73,7 @@ logo {
     background: url('../images/hero-image.png') no-repeat center center;
     /*animates hero-zoom on loading page */
     animation-name: hero-zoom;
-    animation-duration: 50s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -79,4 +85,24 @@ logo {
     to{
         transform: scale(2);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 250px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 160, 407, .7);
+    
+    bottom: 30px;
+    right: 120px;
+    
+    position: absolute;
 }
