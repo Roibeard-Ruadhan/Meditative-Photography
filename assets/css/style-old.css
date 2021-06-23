@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Viaoda+Libre&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: 'GFS Didot', sans-serif;
+    color:#2a2a2a;
+    background: #fff;
+}
+
+/*headings & logo */
+
+h1, h2, h3 {
+    font-family: 'Viaoda Libre', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    font-size: x-large;
+    margin-left: 550px;
+    color: #2a2a2a;
+}
+
+/* navigaton links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+    margin: 10px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid slategray;
+}
+
+.active {
+    border-bottom: 1px solid slategray;
+}
+
+/* hero image & cover text*/
+
+#hero-outer {
+    height: 700px;
+    width: 1500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff
+}
+
+#hero-image {
+    height: 700px;
+    width: 1500px;
+    background: url('../images/hero-image.png') no-repeat center center;
+    /*animates hero-zoom on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*creates the level of zoom for hero image*/
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 330px;
+    height: 140px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    background-color: rgba(247, 220, 164, 0.7);
+
+    bottom: 30px;
+    right: 10px;
+    
+    position: absolute;
+}
+
+/* For paragraghs at the breaks between images */
+.p-structure {
+    height: 150px;
+    width: 100%;
+    margin: 0 auto; 
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 60px;
+    background: #898B75;
+}
+
+/* Using radio button to fit 4 images on one page */
+
+.container {
+    width: 1200px;
+    height: 500px;
+    padding: 20px;
+}
+
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    display: inline-flexbox;
+    position:relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+input[type="radio"]:checked{
+    border: 2px solid #00baff;
+}
+
+.display-image {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    margin: 0 auto;
+    }
+/* Section one of images Home Page */
+#one{background-image: url('../images/portumna.jpg'); background-size: cover;}
+
+#two{background-image: url('../images/shadow.JPG'); background-size: cover;}
+    
+#three{background-image: url('../images/sunrise.jpg'); background-size: cover;}
+    
+#four{background-image: url('../images/sunset.jpg'); background-size: cover;}
+
+
+
+#one:checked ~ .display-image {background-image: url('../images/portumna.jpg');
+}
+
+#two:checked ~ .display-image {background-image: url('../images/shadow.JPG');
+}
+
+#three:checked ~ .display-image {background-image: url('../images/sunrise.jpg');
+}
+
+#four:checked ~ .display-image {background-image: url('../images/sunset.jpg');
+}
+
+/* Section one of images Home Page */
+#five{background-image: url('../images/portumna.jpg'); background-size: cover;}
+
+#six{background-image: url('../images/shadow.JPG'); background-size: cover;}
+    
+#seven{background-image: url('../images/sunrise.jpg'); background-size: cover;}
+    
+#eight{background-image: url('../images/sunset.jpg'); background-size: cover;}
+
+
+
+#five:checked ~ .display-image {background-image: url('../images/sunset-love.jpg');
+}
+
+#six:checked ~ .display-image {background-image: url('../images/walk.jpg');
+}
+
+#seven:checked ~ .display-image {background-image: url('../images/wall.jpg');
+}
+
+#eight:checked ~ .display-image {background-image: url('../images/sunset.jpg');
+}
+/* not working yet, want to test image as background */
+.div1 {
+    background: url(portumna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
