@@ -8,7 +8,7 @@
 
 body {
     font-family: 'GFS Didot', sans-serif;
-    color:#fff;
+    color:rgb(5, 5, 5);
 }
     
 
@@ -35,6 +35,7 @@ body {
     top: 20px;
     right: 20px;
     position: absolute;
+    list-style-type: none; 
 }
 
 
