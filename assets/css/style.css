@@ -9,13 +9,14 @@
 body {
     font-family: 'GFS Didot', sans-serif;
     color:rgb(5, 5, 5);
+    text-align: center;
 }
     
 
 .hero-image {
     background-image: url("../images/dandelion.JPG");
     background-color: #fff;
-    height:800px; 
+    height:100vh; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -30,13 +31,161 @@ body {
     color: black;
 }
 
-#menu {
-    text-align: right;
-    top: 20px;
-    right: 20px;
-    position: absolute;
-    list-style-type: none; 
+/* .p-container for Portfolia Grid */
+
+.p-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.8fr 0.6fr 
+    5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr
+    5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr; /* 23 Rows, 20 for images & 3 from Nav Logo & page name */
+    grid-template-areas: 
+        "nav nav nav nav"
+        "main main main main"
+        "page-header page-header page-header page-header"
+        "content1 content1 content1 content1"
+        "content2 content2 content2 content2"
+        "content3 content3 content3 content3"
+        "content4 content4 content4 content4"
+        "content5 content5 content5 content5"
+        "content6 content6 content6 content6"
+        "content7 content7 content7 content7"
+        "content8 content8 content8 content8"
+        "content9 content9 content9 content9"
+        "content10 content10 content10 content10"
+        "content11 content11 content11 content11"
+        "content12 content12 content12 content12"
+        "content13 content13 content13 content13"
+        "content14 content14 content14 content14"
+        "content15 content15 content15 content15"
+        "content16 content16 content16 content16"
+        "content17 content17 content17 content17"
+        "content18 content18 content18 content18"
+        "content19 content19 content19 content19"
+        "content20 content20 content20 content20";
+        
 }
 
+nav {
+    background: yellow;
+    grid-area: nav;
+}
 
+main {
+    background: hotpink;
+    grid-area: main;
+}
 
+#page-header {
+    background: magenta;
+    grid-area: page-header; 
+}
+
+#content1 {
+    background: lawngreen;
+    grid-area: content1;
+}
+
+#content2 {
+    background:lightblue;
+    grid-area: content2;
+}
+
+#content3 {
+    background: lightsalmon;
+    grid-area: content3;
+}
+#content4 {
+    background: lawngreen;
+    grid-area: content4;
+}
+
+#content5 {
+    background:lightblue;
+    grid-area: content5;
+}
+
+#content6 {
+    background: lightsalmon;
+    grid-area: content6;
+}
+#content7 {
+    background: lawngreen;
+    grid-area: content7;
+}
+
+#content8 {
+    background:lightblue;
+    grid-area: content8;
+}
+
+#content9 {
+    background: lightsalmon;
+    grid-area: content9;
+}
+#content10 {
+    background: lawngreen;
+    grid-area: content10;
+}
+
+#content11 {
+    background:lightblue;
+    grid-area: content11;
+}
+
+#content12 {
+    background: lightsalmon;
+    grid-area: content12;
+}
+#content13 {
+    background: lightsalmon;
+    grid-area: content13;
+}
+#content14 {
+    background: lawngreen;
+    grid-area: content14;
+}
+
+#content15 {
+    background:lightblue;
+    grid-area: content15;
+}
+
+#content16 {
+    background: lightsalmon;
+    grid-area: content16;
+}
+#content17 {
+    background: lawngreen;
+    grid-area: content17;
+}
+
+#content18 {
+    background:lightblue;
+    grid-area: content18;
+}
+
+#content19 {
+    background: lightsalmon;
+    grid-area: content19;
+}
+#content20 {
+    background: lawngreen;
+    grid-area: content20;
+}
+
+/*media query to make grid responsive */
+
+@media only screen and (max-width:550){
+    .p-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr;
+        grid-template-areas: 
+        "nav" "main" "page-header" 
+        "content1" "content2" "content3" "content4" "content5"
+        "content6" "content7" "content8" "content9" "content10"
+        "content11" "content12" "content13" "content14" "content15"
+        "content16" "content17" "content18" "content19" "content20";
+    }
+}
