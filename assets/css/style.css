@@ -35,36 +35,35 @@ body {
 
 .p-container {
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 12000px;
+    grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.2fr 0.8fr 0.6fr 
     5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr
     5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr; /* 23 Rows, 20 for images & 3 from Nav Logo & page name */
     grid-template-areas: 
-        "nav nav nav nav"
-        "main main main main"
-        "page-header page-header page-header page-header"
-        "content1 content1 content1 content1"
-        "content2 content2 content2 content2"
-        "content3 content3 content3 content3"
-        "content4 content4 content4 content4"
-        "content5 content5 content5 content5"
-        "content6 content6 content6 content6"
-        "content7 content7 content7 content7"
-        "content8 content8 content8 content8"
-        "content9 content9 content9 content9"
-        "content10 content10 content10 content10"
-        "content11 content11 content11 content11"
-        "content12 content12 content12 content12"
-        "content13 content13 content13 content13"
-        "content14 content14 content14 content14"
-        "content15 content15 content15 content15"
-        "content16 content16 content16 content16"
-        "content17 content17 content17 content17"
-        "content18 content18 content18 content18"
-        "content19 content19 content19 content19"
-        "content20 content20 content20 content20";
-        
+        "nav nav"
+        "main main"
+        "page-header page-header"
+        "content1 content1a"
+        "content2 content2a"
+        "content3 content3a"
+        "content4 content4a"
+        "content5 content5a"
+        "content6 content6a"
+        "content7 content7a"
+        "content8 content8a"
+        "content9 content9a"
+        "content10 content10a"
+        "content11 content11a"
+        "content12 content12a"
+        "content13 content13a"
+        "content14 content14a"
+        "content15 content15a"
+        "content16 content16a"
+        "content17 content17a"
+        "content18 content18a"
+        "content19 content19a"
+        "content20 content20a";
 }
 
 nav {
@@ -86,93 +85,180 @@ main {
     background: lawngreen;
     grid-area: content1;
 }
+#content1a {
+    background: rgb(252, 80, 0);
+    grid-area: content1a;
+}
 
 #content2 {
     background:lightblue;
     grid-area: content2;
+}
+#content2a {
+    background:rgb(125, 206, 32);
+    grid-area: content2a;
 }
 
 #content3 {
     background: lightsalmon;
     grid-area: content3;
 }
+#content3a {
+    background: rgb(161, 147, 141);
+    grid-area: content3a;
+}
+
 #content4 {
     background: lawngreen;
     grid-area: content4;
+}
+#content4a {
+    background: rgb(252, 0, 218);
+    grid-area: content4a;
 }
 
 #content5 {
     background:lightblue;
     grid-area: content5;
 }
+#content5a {
+    background:rgb(230, 173, 176);
+    grid-area: content5a;
+}
 
 #content6 {
     background: lightsalmon;
     grid-area: content6;
 }
+#content6a {
+    background: rgb(122, 175, 255);
+    grid-area: content6a;
+}
+
 #content7 {
     background: lawngreen;
     grid-area: content7;
+}
+#content7a {
+    background: rgb(10, 8, 12);
+    grid-area: content7a;
 }
 
 #content8 {
     background:lightblue;
     grid-area: content8;
 }
+#content8a {
+    background:rgb(239, 241, 241);
+    grid-area: content8a;
+}
 
 #content9 {
     background: lightsalmon;
     grid-area: content9;
 }
+#content9a {
+    background: rgb(24, 22, 22);
+    grid-area: content9a;
+}
+
 #content10 {
     background: lawngreen;
     grid-area: content10;
+}
+#content10a {
+    background: rgb(226, 241, 210);
+    grid-area: content10a;
 }
 
 #content11 {
     background:lightblue;
     grid-area: content11;
 }
+#content11a {
+    background:rgb(7, 91, 119);
+    grid-area: content11a;
+}
 
 #content12 {
     background: lightsalmon;
     grid-area: content12;
 }
+#content12a {
+    background: rgb(80, 27, 6);
+    grid-area: content12a;
+}
+
 #content13 {
     background: lightsalmon;
     grid-area: content13;
 }
+#content13a {
+    background: rgb(122, 146, 255);
+    grid-area: content13a;
+}
+
 #content14 {
     background: lawngreen;
     grid-area: content14;
+}
+#content14a {
+    background: rgb(241, 245, 238);
+    grid-area: content14a;
 }
 
 #content15 {
     background:lightblue;
     grid-area: content15;
 }
+#content15a {
+    background:rgb(230, 173, 230);
+    grid-area: content15a;
+}
 
 #content16 {
     background: lightsalmon;
     grid-area: content16;
 }
+#content16a {
+    background: rgb(20, 20, 19);
+    grid-area: content16a;
+}
+
 #content17 {
     background: lawngreen;
     grid-area: content17;
+}
+#content17a {
+    background: rgb(0, 193, 252);
+    grid-area: content17a;
 }
 
 #content18 {
     background:lightblue;
     grid-area: content18;
 }
+#content18a {
+    background:rgb(230, 203, 173);
+    grid-area: content18a;
+}
 
 #content19 {
     background: lightsalmon;
     grid-area: content19;
 }
+#content19a {
+    background: rgb(255, 122, 222);
+    grid-area: content19a;
+
+}
 #content20 {
     background: lawngreen;
     grid-area: content20;
+}
+#content20a {
+    background: rgb(12, 20, 3);
+    grid-area: content20a;
 }
 
 /*media query to make grid responsive */
