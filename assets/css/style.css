@@ -15,7 +15,7 @@ body {
 
 .hero-image {
     background-image: url("../images/dandelion.JPG");
-    background-color: #fff;
+    background-color: rgb(41, 196, 41);
     height:100vh; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -28,19 +28,148 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: #fff;
+    text-decoration: none;
+}
+/*style button on Entry Page */
+button {
+    background-color: #0e0c0c;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+  }
+  a:hover, a:active button {
+    font-size: 120% solid;
+    color: rgb(0, 0, 0);
+  }
+/* Home page starts here with h-container for the home system grid */
+
+.h-container {
+    display: grid;
+    height: 1000px;
+    width:100%;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.2fr 0.8fr 0.8fr 500px 400px 0.8fr;
+    grid-template-areas: 
+        "nav nav"
+        "main main"
+        "page-header page-header"
+        "nav-img1 nav-img2"
+        "carousel carousel"
+        "footer footer";  
+}
+nav {
+    grid-area: nav;
+    background: rgb(251, 255, 0);
 }
 
-/* .p-container for Portfolia Grid */
+main {
+    grid-area: main;
+    background: rgb(81, 255, 0);
+}
+
+#page-header {
+    background: magenta;
+    grid-area: page-header; 
+}
+/* Image as a second, more expressive option to link to Portfolio*/
+.nav-img1 {
+    position: relative;
+    width: 100%;
+}
+.nav-img1, img {
+    grid-area: nav-img1;
+    height: 95%;
+    width: 95%;
+    position:relative;
+    overflow: hidden;
+    object-fit:cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    margin: 10px; 
+} 
+
+.image-overlay1 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+.image-overlay1:hover{
+    opacity: 1;
+}
+
+.page-title1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Image as a second, more expressive option to link to About page*/
+.nav-img2 {
+    position: relative;
+    width: 100%;
+}
+
+.nav-img2, img {
+    grid-area: nav-img2; 
+    height: 95%;
+    width: 95%;
+    position:relative;
+    overflow: cover;
+    object-fit:contain;
+    object-position: 50% 50%;
+    cursor: pointer;
+    margin: 10px;
+ /*   display: block; */
+}
+ .image-overlay2 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+.image-overlay2:hover{
+    opacity: 1;
+}
+.page-title2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.carousel {
+    background: rgb(255, 0, 0);
+    grid-area: carousel; 
+}
+
+.footer {
+    background: rgb(255, 0, 170);
+    grid-area: footer; 
+}
+
+
+/* .p-container for the Portfolia page Grid */
 
 .p-container {
     display: grid;
-    height: 12000px;
+    height: 6000px;
     width:100%;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.2fr 0.8fr 0.8fr 
-    600px 600px 600px 600px 600px 600px 600px 600px 600px 600px
-    600px 600px 600px 600px 600px 600px 600px 600px 600px 600px; /* 23 Rows, 20 for images & 3 from Nav Logo & page name */
+    600px 600px 600px 600px 600px 600px 600px 600px 600px 600px 30px; /* 13 Rows, 20 for images & 3 from Nav Logo & page name */
     grid-template-areas: 
         "nav nav"
         "main main"
@@ -55,26 +184,17 @@ body {
         "content8 content8a"
         "content9 content9a"
         "content10 content10a"
-        "content11 content11a"
-        "content12 content12a"
-        "content13 content13a"
-        "content14 content14a"
-        "content15 content15a"
-        "content16 content16a"
-        "content17 content17a"
-        "content18 content18a"
-        "content19 content19a"
-        "content20 content20a";
+        "footer footer";
 }
 
 nav {
-    background: yellow;
     grid-area: nav;
+    background: rgb(251, 255, 0);
 }
 
 main {
-    background: hotpink;
     grid-area: main;
+    background: rgb(81, 255, 0);
 }
 
 #page-header {
@@ -83,191 +203,84 @@ main {
 }
 
 #content1 {
-    background: lawngreen;
     grid-area: content1;
-    justify-items: center;
-
 }
 #content1a {
-    background: rgb(252, 80, 0);
     grid-area: content1a;
-    
 }
 
 #content2 {
-    background:lightblue;
     grid-area: content2;
 }
 #content2a {
-    background:rgb(125, 206, 32);
     grid-area: content2a;
 }
 
 #content3 {
-    background: lightsalmon;
     grid-area: content3;
 }
 #content3a {
-    background: rgb(161, 147, 141);
     grid-area: content3a;
 }
 
 #content4 {
-    background: lawngreen;
     grid-area: content4;
 }
 #content4a {
-    background: rgb(252, 0, 218);
     grid-area: content4a;
 }
 
 #content5 {
-    background:lightblue;
     grid-area: content5;
 }
 #content5a {
-    background:rgb(230, 173, 176);
     grid-area: content5a;
 }
 
 #content6 {
-    background: lightsalmon;
     grid-area: content6;
 }
 #content6a {
-    background: rgb(122, 175, 255);
     grid-area: content6a;
 }
 
 #content7 {
-    background: lawngreen;
     grid-area: content7;
 }
 #content7a {
-    background: rgb(10, 8, 12);
     grid-area: content7a;
 }
 
 #content8 {
-    background:lightblue;
     grid-area: content8;
 }
 #content8a {
-    background:rgb(239, 241, 241);
     grid-area: content8a;
 }
 
 #content9 {
-    background: lightsalmon;
     grid-area: content9;
 }
 #content9a {
-    background: rgb(24, 22, 22);
     grid-area: content9a;
 }
 
 #content10 {
-    background: lawngreen;
     grid-area: content10;
 }
 #content10a {
-    background: rgb(226, 241, 210);
     grid-area: content10a;
 }
 
-#content11 {
-    background:lightblue;
-    grid-area: content11;
-}
-#content11a {
-    background:rgb(7, 91, 119);
-    grid-area: content11a;
+footer {
+    background: rgb(0, 183, 255);
+    grid-area: footer; 
 }
 
-#content12 {
-    background: lightsalmon;
-    grid-area: content12;
-}
-#content12a {
-    background: rgb(80, 27, 6);
-    grid-area: content12a;
-}
-
-#content13 {
-    background: lightsalmon;
-    grid-area: content13;
-}
-#content13a {
-    background: rgb(122, 146, 255);
-    grid-area: content13a;
-}
-
-#content14 {
-    background: lawngreen;
-    grid-area: content14;
-}
-#content14a {
-    background: rgb(241, 245, 238);
-    grid-area: content14a;
-}
-
-#content15 {
-    background:lightblue;
-    grid-area: content15;
-}
-#content15a {
-    background:rgb(230, 173, 230);
-    grid-area: content15a;
-}
-
-#content16 {
-    background: lightsalmon;
-    grid-area: content16;
-}
-#content16a {
-    background: rgb(20, 20, 19);
-    grid-area: content16a;
-}
-
-#content17 {
-    background: lawngreen;
-    grid-area: content17;
-}
-#content17a {
-    background: rgb(0, 193, 252);
-    grid-area: content17a;
-}
-
-#content18 {
-    background:lightblue;
-    grid-area: content18;
-}
-#content18a {
-    background:rgb(230, 203, 173);
-    grid-area: content18a;
-}
-
-#content19 {
-    background: lightsalmon;
-    grid-area: content19;
-}
-#content19a {
-    background: rgb(255, 122, 222);
-    grid-area: content19a;
-
-}
-#content20 {
-    background: lawngreen;
-    grid-area: content20;
-}
-#content20a {
-    background: rgb(12, 20, 3);
-    grid-area: content20a;
-}
 /* targeting the images directly to make sure the size is fitting in the container proportionally */
 .image img {
-    height: 100%;
-    width:100%;
+    height: 95%;
+    width: 95%;
     position:relative;
     overflow: hidden;
     object-fit:contain;
@@ -277,6 +290,8 @@ main {
 }
 
 .image img:hover {
+   /* height: 500px;
+    width: 600px; */
     ;
 }
 
