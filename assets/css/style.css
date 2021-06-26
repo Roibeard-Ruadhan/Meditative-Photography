@@ -36,10 +36,11 @@ body {
 .p-container {
     display: grid;
     height: 12000px;
+    width:100%;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.6fr 
-    5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr
-    5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr; /* 23 Rows, 20 for images & 3 from Nav Logo & page name */
+    grid-template-rows: 0.2fr 0.8fr 0.8fr 
+    600px 600px 600px 600px 600px 600px 600px 600px 600px 600px
+    600px 600px 600px 600px 600px 600px 600px 600px 600px 600px; /* 23 Rows, 20 for images & 3 from Nav Logo & page name */
     grid-template-areas: 
         "nav nav"
         "main main"
@@ -84,10 +85,13 @@ main {
 #content1 {
     background: lawngreen;
     grid-area: content1;
+    justify-items: center;
+
 }
 #content1a {
     background: rgb(252, 80, 0);
     grid-area: content1a;
+    
 }
 
 #content2 {
@@ -259,6 +263,21 @@ main {
 #content20a {
     background: rgb(12, 20, 3);
     grid-area: content20a;
+}
+/* targeting the images directly to make sure the size is fitting in the container proportionally */
+.image img {
+    height: 100%;
+    width:100%;
+    position:relative;
+    overflow: hidden;
+    object-fit:contain;
+    object-position: 50% 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.image img:hover {
+    ;
 }
 
 /*media query to make grid responsive */
