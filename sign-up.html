@@ -12,7 +12,7 @@
 <body>
     <header>
             <nav>
-                <nav><ul id="menu">
+                <ul id="menu">
                     <li><a href="home.html">Home</a>
                     </li>
                     <li><a href="portfolio.html">Portfolio</a>
@@ -24,13 +24,29 @@
                 </ul>
             </nav>
             <main><a href="index.html">
-                <h1 id="logo">Roibeard Ruadhan Photography</h1>
-                    </a>
+                <h1 id="logo">Roibeard Ruadhan Photography</h1></a>
             </main>
-            <div class="water-flowing">  <!--Video of water flowing when ready -->
-                <div class="hero-text">
-                  <h1>Sign Up</a></h1>
-                </div>
+            <div class="s-container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="europe">Europe</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
               </div>
         </header>
 </body>
