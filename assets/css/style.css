@@ -14,7 +14,7 @@ body {
     
 
 .hero-image {
-    background-image: url("../images/dandelion.JPG");
+    background-image: url("/assets/images/DSC02868.jpg");
     background-color: rgb(41, 196, 41);
     height:100vh; 
     background-position: center; 
@@ -49,9 +49,8 @@ button {
 .h-container {
     display: grid;
     height: 1000px;
-    width:100%;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.8fr 500px 400px 0.8fr;
+    grid-template-rows: 0.2fr 0.8fr 0.8fr 13fr 11fr 0.8fr;
     grid-template-areas: 
         "nav nav"
         "main main"
@@ -161,15 +160,15 @@ main {
 }
 
 
-/* .p-container for the Portfolia page Grid */
+    /* .p-container for the Portfolia page Grid */
 
 .p-container {
     display: grid;
-    height: 6000px;
+    height: 5000px;
     width:100%;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.8fr 
-    600px 600px 600px 600px 600px 600px 600px 600px 600px 600px 30px; /* 13 Rows, 20 for images & 3 from Nav Logo & page name */
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 
+    1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr; /* 13 Rows, 20 for images & 3 from Nav Logo & page name */
     grid-template-areas: 
         "nav nav"
         "main main"
@@ -295,17 +294,63 @@ footer {
     ;
 }
 
-/*media query to make grid responsive */
+/*media query to make responsive */
 
-@media only screen and (max-width:550){
+@media only screen and (max-width:750px){
     .p-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr;
+        grid-template-rows: 0.1fr 0.4fr 0.2fr 
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
         grid-template-areas: 
-        "nav" "main" "page-header" 
-        "content1" "content2" "content3" "content4" "content5"
-        "content6" "content7" "content8" "content9" "content10"
-        "content11" "content12" "content13" "content14" "content15"
-        "content16" "content17" "content18" "content19" "content20";
+        "nav" 
+        "main" 
+        "page-header" 
+        "content1" "content1a" "content2" "content2a" "content3"
+        "content3a" "content4" "content4a" "content5" "content5a"
+        "content6" "content6a" "content7" "content7a" "content8"
+        "content8a" "content9" "content9a" "content10" "content10a" 
+        "footer";
+    }
+    .h-container { 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.2fr 0.4fr 0.2fr 13fr 13fr 11fr 0.8fr;
+        grid-template-areas: 
+            "nav"
+            "main"
+            "page-header"
+            "nav-img1" 
+            "nav-img2"
+            "carousel"
+            "footer";  
+    }
+}
+@media only screen and (max-width:550px){
+    .p-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.2fr 0.1fr 
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
+        grid-template-areas: 
+        "nav" 
+        "main" 
+        "page-header" 
+        "content1" "content1a" "content2" "content2a" "content3"
+        "content3a" "content4" "content4a" "content5" "content5a"
+        "content6" "content6a" "content7" "content7a" "content8"
+        "content8a" "content9" "content9a" "content10" "content10a" 
+        "footer";
+    }
+    .h-container { 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.2fr 0.4fr 0.2fr 13fr 13fr 11fr 0.8fr;
+        grid-template-areas: 
+            "nav"
+            "main"
+            "page-header"
+            "nav-img1" 
+            "nav-img2"
+            "carousel"
+            "footer";  
     }
 }
