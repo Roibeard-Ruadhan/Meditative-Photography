@@ -23,13 +23,11 @@
               </li>
           </ul>
       </nav>
-      <main><a href="index.html">
-        <div id="logo">
-          <h1><img src="/assets/images/logo.jpg" alt="Website logo"></h1></a>
+      <div id="logo"><a href="index.html">
+            <img src="/assets/images/logo.jpg" alt="Website logo"></a>
       </div>
-      </main>
       <div id="page-header"><h2>Contact Form</h2></div>
-      <div></div>
+  </header>
         <div class="container">
           <form action="/action_page.php">
             <label for="fname">First Name</label>
@@ -39,7 +37,7 @@
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
             <label for="email">Email</label>
-            <input name="email" type="email">
+            <input name="email" type="email" id="email" placeholder="Your email address..">
 
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
@@ -47,7 +45,5 @@
             <input type="submit" value="Submit">
           </form>
         </div>
-
-  </header>
 </body>
 </html>
