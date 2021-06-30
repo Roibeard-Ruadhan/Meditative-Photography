@@ -24,10 +24,10 @@ body {
 }
 #hero-logo img {
     opacity: .5;
-    position:fixed;
-    right: 0%;
     max-width: 500px;
     max-height: 180px;
+    left: 30%;
+    position: relative;
 }
 
 a {
@@ -44,16 +44,17 @@ a {
 button {
     background-color: #ffffff;
     color: rgb(3, 3, 3);
-    padding: 2px;
+    padding: 10px;
     text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    right: 0%;
+    text-decoration: none;
+    border: 1px solid black;
     position: relative;
+    left: 31%;
+    border-radius: 50%;
   }
-  a:hover, a:active button {
-    color: rgb(15, 95, 28);
-    text-decoration:underline;
+  button, a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
   }
   /* ---HOME PAGE --- */
 /* Home page starts here with h-container for the home system grid */
