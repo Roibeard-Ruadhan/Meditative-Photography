@@ -22,14 +22,12 @@ body {
     background-repeat: no-repeat; 
     background-size: cover;
 }
-#hero-logo {
-    color: rgb(255, 255, 255)!important;
-    font-family: bickham-script-pro-3, sans-serif;
-    font-weight: 700;
-    text-align:right;
-    position:absolute;
+#hero-logo img {
+    opacity: .5;
+    position:fixed;
     right: 0%;
-    top: 50%;
+    max-width: 500px;
+    max-height: 180px;
 }
 
 a {
@@ -45,11 +43,13 @@ a {
 /*style button on Entry Page */
 button {
     background-color: #ffffff;
-    color: white;
+    color: rgb(3, 3, 3);
     padding: 2px;
     text-align: center;
     text-decoration:none;
     display: inline-block;
+    right: 0%;
+    position: relative;
   }
   a:hover, a:active button {
     color: rgb(15, 95, 28);
