@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Viaoda+Libre&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-    font-family: 'GFS Didot', sans-serif;
+    font-family: 'Josefin Slab', serif;
     color:rgb(5, 5, 5);
     text-align: center;
 }
@@ -75,9 +76,10 @@ button {
 nav {
     grid-area: nav;
     background: rgb(251, 255, 0);
+    text
 }
 
-main {
+.main-header {
     grid-area: main;
 }
 
