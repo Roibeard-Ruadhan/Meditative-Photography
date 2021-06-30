@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,33 +16,35 @@ body {
 
 .hero-image {
     background-image: url("/assets/images/DSC02868.jpg");
-    background-color: rgb(41, 196, 41);
+    background-color: rgb(255, 255, 255);
     height:100vh; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
 }
-
-.hero-text {
-    text-align: center;
-    position: absolute;
+#hero-logo {
+    color: rgb(255, 255, 255)!important;
+    font-family: bickham-script-pro-3, sans-serif;
+    font-weight: 700;
+    text-align:right;
+    position:absolute;
+    right: 0%;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-decoration: none!important;
 }
-#logo a {
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    font-family: 'Viaoda', sans-serif;  /* need to find right font or create logo image */
+
+a {
+    text-decoration:none;
 }
-a {text-decoration:none;
-   color: black; }
+
+#logo img {
+    color: rgb(255, 255, 255);
+    max-width: 600px;
+    max-height: 200px;
+}
+
 /*style button on Entry Page */
 button {
-    background-color: #0e0c0c;
+    background-color: #ffffff;
     color: white;
     padding: 2px;
     text-align: center;
@@ -49,8 +52,7 @@ button {
     display: inline-block;
   }
   a:hover, a:active button {
-    font-size: 120% solid;
-    color: black;
+    color: rgb(15, 95, 28);
     text-decoration:underline;
   }
 /* Home page starts here with h-container for the home system grid */
@@ -75,97 +77,10 @@ nav {
 
 main {
     grid-area: main;
-    background: rgb(81, 255, 0);
 }
 
 #page-header {
-    background: magenta;
     grid-area: page-header; 
-}
-/* Image as a second, more expressive option to link to Portfolio*/
-.nav-img1 {
-    position: relative;
-    width: 100%;
-}
-.nav-img1, img {
-    grid-area: nav-img1;
-    height: 95%;
-    width: 95%;
-    position:relative;
-    overflow: hidden;
-    object-fit:cover;
-    object-position: 50% 50%;
-    cursor: pointer;
-    margin: 10px; 
-} 
-
-.image-overlay1 {
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 95%;
-    height: 95%;
-    background: rgba(0, 0, 0, .6);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    opacity: 0;
-}
-.image-overlay1:hover{
-    opacity: 1;
-}
-
-.page-title1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-/* Image as a second, more expressive option to link to About page*/
-.nav-img2 {
-    position: relative;
-    width: 100%;
-}
-
-.nav-img2, img {
-    grid-area: nav-img2; 
-    height: 95%;
-    width: 95%;
-    position:relative;
-    overflow: cover;
-    object-fit:contain;
-    object-position: 50% 50%;
-    cursor: pointer;
-    margin: 10px;
- /*   display: block; */
-}
- .image-overlay2 {
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 95%;
-    height: 95%;
-    background: rgba(0, 0, 0, .6);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    opacity: 0;
-}
-.image-overlay2:hover{
-    opacity: 1;
-}
-.page-title2 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-
-.carousel {
-    background: rgb(255, 0, 0);
-    grid-area: carousel; 
-}
-
-.footer {
-    background: rgb(255, 0, 170);
-    grid-area: footer; 
 }
 
 
@@ -202,11 +117,10 @@ nav {
 
 main {
     grid-area: main;
-    background: rgb(81, 255, 0);
 }
 
 #page-header {
-    background: magenta;
+    background: rgb(25, 0, 255);
     grid-area: page-header; 
 }
 
@@ -286,6 +200,99 @@ footer {
 }
 
 /* targeting the images directly to make sure the size is fitting in the container proportionally */
+/* Image as a second, more expressive option to link to Portfolio*/
+.nav-img1 {
+    position: relative;
+    width: 100%;
+}
+.nav-img1, img {
+    grid-area: nav-img1;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    object-fit:cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    margin: 10px; 
+} 
+
+.image-overlay1 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    justify-content: center;
+    transition: opacity 0.25s;
+}
+.image-overlay1 > * {
+    transform: translate(20px);
+    transition: transform 0.25s;
+}
+.image-overlay1:hover{
+    opacity: 1;
+}
+
+.page-title1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Image as a second, more expressive option to link to About page*/
+.nav-img2 {
+    position: relative;
+    width: 100%;
+}
+
+.nav-img2, img {
+    grid-area: nav-img2; 
+    height: 95%;
+    width: 95%;
+    position:relative;
+    overflow: cover;
+    object-fit:contain;
+    object-position: 50% 50%;
+    cursor: pointer;
+    margin: 10px;
+ /*   display: block; */
+}
+ .image-overlay2 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    justify-content: center;
+    transition: opacity 0.25s;
+}
+.image-overlay2:hover{
+    opacity: 1;
+}
+.page-title2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Carousel */
+.carousel {
+    background: rgb(255, 0, 0);
+    grid-area: carousel; 
+}
+
+.footer {
+    background: rgb(255, 0, 170);
+    grid-area: footer; 
+}
+
 .image img {
     height: 95%;
     width: 95%;
