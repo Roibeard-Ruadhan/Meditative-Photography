@@ -12,18 +12,35 @@
 <body>
     <section>
         <div class="h-container">
-            <nav><ul id="menu">
-                    <li><a href="home.html" class="active">HOME</a>
-                    </li>
-                    <li><a href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li><a href="about-me.html">ABOUT</a>
-                    </li>
-                    <li><a href="blog.html">BLOG</a>
-                    </li>
-                    <li><a href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
+            <nav role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                    <ul id="menu"> 
+                        <li><a href="home.html" class="active">HOME</a>
+                        </li>
+                        <li><a href="portfolio.html">PORTFOLIO</a>
+                        </li>
+                        <li><a href="about-me.html">ABOUT</a>
+                        </li>
+                        <li><a href="blog.html">BLOG</a>
+                        </li>
+                        <li><a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
             </nav>
             <section class="main-header">
                 <div id="logo">
