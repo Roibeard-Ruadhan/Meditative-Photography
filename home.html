@@ -12,55 +12,56 @@
 <body>
     <section>
         <div class="h-container">
+            <!--Hamburger Menu- Code adapted from Erik Terwan @  https://codepen.io/erikterwan/pres/grOZxx-->
             <nav role="navigation">
                 <div id="menuToggle">
-                  <!--
-                  A fake / hidden checkbox is used as click reciever,
-                  so you can use the :checked selector on it.
-                  -->
+                  <!--A hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
                   <input type="checkbox" />
-                  
-                  <!--
-                  Some spans to act as a hamburger.
-                  
-                  They are acting like a real hamburger,
-                  not that McDonalds stuff.
-                  -->
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  <!--Some spans to act as a hamburger, placed on the top right if the page-->
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <!-- Menu for all pages inside the hamburger-->
                     <ul id="menu"> 
-                        <li><a href="home.html" class="active">HOME</a>
+                        <li><a href="home.html" aria-label="Click here to go to the Home Page" class="active">HOME</a>
                         </li>
-                        <li><a href="portfolio.html">PORTFOLIO</a>
+                        <li><a href="portfolio.html" aria-label="Click here to go to the Portfolio Page">PORTFOLIO</a>
                         </li>
-                        <li><a href="about-me.html">ABOUT</a>
+                        <li><a href="about-me.html" aria-label="Click here to go to the About Page">ABOUT</a>
                         </li>
-                        <li><a href="blog.html">BLOG</a>
+                        <li><a href="blog.html" aria-label="Click here to go to the Blog Page">BLOG</a>
                         </li>
-                        <li><a href="contact.html">CONTACT</a>
+                        <li><a href="contact.html" aria-label="Click here to go to the Contact Page">CONTACT</a>
                         </li>
                     </ul>
+                </div>
             </nav>
-            <section class="main-header">
+            <!-- Logo image as main Header -->
+            <div class="main-header">   
                 <div id="logo"><a href="index.html">
                     <div><img src="/source/assets/images/logo.jpg" alt="Website logo"></div></a>
                 </div>
-            </section>
-            <div id="page-header"><h1>HOME</h1></div>
-            <div id="home">
-                <div id="nav-img1"><a href="/portfolio.html">PORTFOLIO
-                    <img src="/source/assets/images/corn-sunset-beautiful.jpg" alt="#"></a>
+            </div>
+            <!-- Header for this page -->
+            <div id="page-header"><h1>HOME</h1></div> 
+            <!--Navigation images with every page represented by an image-->
+            <div> 
+                <div class="home-image">
+                    <div id="nav-img1"><a href="/portfolio.html">PORTFOLIO
+                        <img src="/source/assets/images/corn-sunset-beautiful.jpg" alt="#"></a>
+                    </div>
                 </div>
-                <div id="nav-img2"><a href="/about-me.html">ABOUT
-                    <img src="/source/assets/images/a-white-butterfly.jpg" alt="#"></a>
+                <div class="home-image">
+                    <div id="nav-img2"><a href="/about-me.html">ABOUT
+                        <img src="/source/assets/images/a-white-butterfly.jpg" alt="#"></a>
+                    </div>
                 </div>
-                <div id="nav-img3"><a href="/blog.html">BLOG
-                    <img src="/source/assets/images/5000meters-annapurna.jpg" alt="#"></a>
-                </div>
-                <div id="nav-img4"><a href="/contact.html">CONTACT
-                    <img src="/source/assets/images/a-dandelion.JPG" alt="Dandelion up close highlighting distorted perspective"></a>
-                </div>
+                    <div id="nav-img3"><a href="/blog.html">BLOG
+                        <img src="/source/assets/images/5000meters-annapurna.jpg" alt="#"></a>
+                    </div>
+                    <div id="nav-img4"><a href="/contact.html">CONTACT
+                        <img src="/source/assets/images/a-dandelion.JPG" alt="Dandelion up close highlighting distorted perspective"></a>
+                    </div>
             </div>
             <div class="carousel">Home2-Carousel</div>
             

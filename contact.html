@@ -10,32 +10,41 @@
     <title>Roibeard Ruadhan Photography</title>
 </head>
 <body>
-  <header>
+  <section>
+    <Div></Div>
+        <!--Hamburger Menu- Code adapted from Erik Terwan @  https://codepen.io/erikterwan/pres/grOZxx-->
         <nav role="navigation">
-            <div id="menuToggle">
-              <input type="checkbox" />
-               <span></span>
-               <span></span>
-               <span></span>
-                 <ul id="menu"> 
-                    <li><a href="home.html">HOME</a>
-                    </li>
-                    <li><a href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li><a href="about-me.html">ABOUT</a>
-                    </li>
-                    <li><a href="blog.html">BLOG</a>
-                    </li>
-                    <li><a href="contact.html" class="active">CONTACT</a>
-                    </li>
-                 </ul>
-            </div>
-        </nav>
-          <div id="logo"><a href="index.html">
-                <img src="/source/assets/images/logo.jpg" alt="Website logo"></a>
+          <div id="menuToggle">
+            <!--A hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+            <input type="checkbox" />
+            <!--Some spans to act as a hamburger, placed on the top right if the page-->
+             <span></span>
+             <span></span>
+             <span></span>
+             <!-- Menu for all pages inside the hamburger-->
+              <ul id="menu"> 
+                  <li><a href="home.html" aria-label="Click here to go to the Home Page">HOME</a>
+                  </li>
+                  <li><a href="portfolio.html" aria-label="Click here to go to the Portfolio Page">PORTFOLIO</a>
+                  </li>
+                  <li><a href="about-me.html" aria-label="Click here to go to the About Page">ABOUT</a>
+                  </li>
+                  <li><a href="blog.html" aria-label="Click here to go to the Blog Page">BLOG</a>
+                  </li>
+                  <li><a href="contact.html" aria-label="Click here to go to the Contact Page" class="active">CONTACT</a>
+                  </li>
+              </ul>
           </div>
-          <div id="page-header"><h1>CONTACT FORM</FORM></h1></div>
-  </header>
+      </nav>
+      <!-- Logo image as main Header -->
+      <div class="main-header">   
+        <div id="logo"><a href="index.html">
+            <div><img src="/source/assets/images/logo.jpg" alt="Website logo"></div></a>
+        </div>
+      </div>
+      <!-- Header for this page -->
+      <div id="page-header"><h1>CONTACT</h1></div> 
+      <!--Contact table adapted from David Fitas @ https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/-->
       <div id="c-container">
         <form>      
           <input name="name" type="text" class="feedback-input" placeholder="Name" />  
@@ -47,6 +56,7 @@
           <input type="submit" value="SUBMIT"/>
         </form>
       </div>
+  </section>
       <footer class="footer">
         <ul>
             <li><a href="https://www.instagram.com/roibeard_ruadhan/" target="_blank" rel="noopener"

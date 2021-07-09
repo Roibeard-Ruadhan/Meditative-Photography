@@ -12,32 +12,39 @@
 <body>
     <section>
         <div class="about-container">
+            <!--Hamburger Menu- Code adapted from Erik Terwan @  https://codepen.io/erikterwan/pres/grOZxx-->
             <nav role="navigation">
-                <div id="menuToggle">
-                  <input type="checkbox" />
-                   <span></span>
-                   <span></span>
-                   <span></span>
-                     <ul id="menu"> 
-                        <li><a href="home.html">HOME</a>
-                        </li>
-                        <li><a href="portfolio.html">PORTFOLIO</a>
-                        </li>
-                        <li><a href="about-me.html" class="active">ABOUT</a>
-                        </li>
-                        <li><a href="blog.html">BLOG</a>
-                        </li>
-                        <li><a href="contact.html">CONTACT</a>
-                        </li>
-                     </ul>
-                </div>
-            </nav>
-            <main><a href="index.html">
-                <div id="logo">
-                    <h1><img src="/source/assets/images/logo.jpg" alt="Website logo"></h1></a>
-                </div>
-                <div id="page-header"><h1>ABOUT</h1></div>
-            </main>
+            <div id="menuToggle">
+              <!--A hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+              <input type="checkbox" />
+              <!--Some spans to act as a hamburger, placed on the top right if the page-->
+               <span></span>
+               <span></span>
+               <span></span>
+               <!-- Menu for all pages inside the hamburger-->
+                <ul id="menu"> 
+                    <li><a href="home.html" aria-label="Click here to go to the Home Page">HOME</a>
+                    </li>
+                    <li><a href="portfolio.html" aria-label="Click here to go to the Portfolio Page">PORTFOLIO</a>
+                    </li>
+                    <li><a href="about-me.html" aria-label="Click here to go to the About Page" class="active">ABOUT</a>
+                    </li>
+                    <li><a href="blog.html" aria-label="Click here to go to the Blog Page">BLOG</a>
+                    </li>
+                    <li><a href="contact.html" aria-label="Click here to go to the Contact Page">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Logo image as main Header -->
+        <div class="main-header">   
+            <div id="logo"><a href="index.html">
+                <div><img src="/source/assets/images/logo.jpg" alt="Website logo"></div></a>
+            </div>
+        </div>
+        <!-- Header for this page -->
+        <div id="page-header"><h1>ABOUT</h1></div> 
+        <!--Portfolio images 1st page-->
             <div>
                 <p>I love to travel, I guess this is where my love for photography originated. Travelling & absorbing the intricacies of diverse cultures is a passion of mine. Embracing the diversity over a reasonable period of time evolve in my view from "This is Extremely Strange"to “Of course this is normal!” is a mind opening process. Therefore capturing this on an image is saving that moment in a capsule of time? (image abroad + nepal)</p>
                 <br> 

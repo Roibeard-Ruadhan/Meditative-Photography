@@ -10,34 +10,41 @@
     <title>Roibeard Ruadhan Photography</title>
 </head>
 <body>
-    <header>
+    <section>
         <div class="p-container">
+            <!--Hamburger Menu- Code adapted from Erik Terwan @  https://codepen.io/erikterwan/pres/grOZxx-->
             <nav role="navigation">
                 <div id="menuToggle">
+                  <!--A hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
                   <input type="checkbox" />
+                  <!--Some spans to act as a hamburger, placed on the top right if the page-->
                    <span></span>
                    <span></span>
                    <span></span>
-                     <ul id="menu"> 
-                        <li><a href="home.html">HOME</a>
+                   <!-- Menu for all pages inside the hamburger-->
+                    <ul id="menu"> 
+                        <li><a href="home.html" aria-label="Click here to go to the Home Page">HOME</a>
                         </li>
-                        <li><a href="portfolio.html" class="active">PORTFOLIO</a>
+                        <li><a href="portfolio.html" aria-label="Click here to go to the Portfolio Page" class="active">PORTFOLIO</a>
                         </li>
-                        <li><a href="about-me.html">ABOUT</a>
+                        <li><a href="about-me.html" aria-label="Click here to go to the About Page">ABOUT</a>
                         </li>
-                        <li><a href="blog.html">BLOG</a>
+                        <li><a href="blog.html" aria-label="Click here to go to the Blog Page" class="active">BLOG</a>
                         </li>
-                        <li><a href="contact.html">CONTACT</a>
+                        <li><a href="contact.html" aria-label="Click here to go to the Contact Page">CONTACT</a>
                         </li>
-                     </ul>
+                    </ul>
                 </div>
             </nav>
-            <main>
+            <!-- Logo image as main Header -->
+            <div class="main-header">   
                 <div id="logo"><a href="index.html">
-                    <h1><img src="/source/assets/images/logo.jpg" alt="Website logo"></h1></a>
+                    <div><img src="/source/assets/images/logo.jpg" alt="Website logo"></div></a>
                 </div>
-            </main>
-            <div id="page-header"><h1>PORTFOLIO</h1></div>
+            </div>
+            <!-- Header for this page -->
+            <div id="page-header"><h1>PORTFOLIO</h1></div> 
+            <!--Portfolio images 1st page-->
                 <div id="content1" class="image"><img src="/source/assets/images/sunset-salthill-blue&yellow-.JPG" alt="Awesomness">1</div>
                 <div id="content1a" class="image"><img src="/source/assets/images/framed-in-house.jpg" alt="Walking">1a</div>
                 <div id="content2" class="image"><img src="/source/assets/images/Nature-Painting.JPG" alt="#">2</div>
@@ -58,7 +65,8 @@
                 <div id="content9a" class="image"><img src="/source/assets/images/sunset-terryglass-church.jpg" alt="#">9a</div>
                 <div id="content10" class="image"><img src="/source/assets/images/water-headford-sun.JPG" alt="#">10</div>
                 <div id="content10a" class="image"><img src="/source/assets/images/sunrise.jpg" alt="#">10a</div>
-        </div>
+            </div>
+    <section>
     <footer>
         <ul>
             <li><a href="https://www.instagram.com/roibeard_ruadhan/" target="_blank" rel="noopener"
