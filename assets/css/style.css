@@ -244,7 +244,7 @@ nav {
         "main main"
         "page-header page-header"
         "pagination pagination"
-        "images images"
+        "p-img-container p-img-container"
     /*  "content1 content1a"
         "content2 content2a"
         "content3 content3a"
@@ -273,8 +273,26 @@ main {
     grid-area: pagination;
 }
 
-.images {
-    grid-area: images;
+.p-img-container {
+    grid-area: p-img-container;
+    position: relative;
+    column-count: 4;
+    padding: 10px;
+}
+
+.image {
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.p-img-container > img {
+    width: 100%;
+}
+
+#content1 > img {
+    grid-column: span 3;
+    grid-row: span 2;
 }
 /*
 #content1 {
