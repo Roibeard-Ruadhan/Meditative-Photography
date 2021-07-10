@@ -389,8 +389,28 @@ footer {
 
 
 /* About Page */ 
+
+.about-content {
+  /*  margin: 5% 10% 5% 10%; */
+}
+
+.banner1-container {
+    background-image: url('/assets/images/ocean-colors-4.jpg');
+    width: 1400px;
+    height:min-content;
+    object-fit: cover;
+    padding: 5rem;
+    color: #fff;
+}
+
+.banner1 {
+    width: 90%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 /*
-.about-container {
+.about-containter {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -421,7 +441,21 @@ main {
 */
 
 /* Blog Page HERE */
-
+.content-image {
+    width: 50%;
+    max-width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 10px;
+    display: block;
+}
+.content-image img {    
+    width: 50%;
+    max-width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 20px;
+    border: 1px solid #383838;
+    display: block;
+}
 /* Contact Page */
 /* Style inputs with type="text", select elements and textareas */
 /* Remove outline of all elements on focus */
