@@ -5,7 +5,7 @@ to share my learnings. It is a hybrid website of the love for
 photography & meditation. It's mission is to share the complimentary
 benifits of meditation to photography & vice versa.
 
-This project hopes to build on every aspect of the page after purchasing a new camera to capture more disctinct images to add. Also to try to add real value to anybody who enters the page by update the Blog with relevant inspiring information. 
+This project hopes to build on every aspect of the page after purchasing a new camera to capture more disctinct images to add. Also to try to add real value to anybody who enters the page by update the Blog with relevant & hopefully inspiring information. 
 
 ## Features
 
@@ -39,7 +39,7 @@ Detail test of all features to assure they are working
 --No errors were returned when passing through the official
 
 -CSS
---No errors were returned when passing through the official !!To be written with dots as per Love Running!!
+--No errors were returned when passing through the official 
 
 ##
 

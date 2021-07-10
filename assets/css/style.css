@@ -11,6 +11,8 @@ body {
     font-family: 'Josefin Slab', serif;
     color: black;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .hero-image {
@@ -292,8 +294,9 @@ main {
 
 #content1 > img {
     grid-column: span 3;
-    grid-row: span 2;
+    grid-row: span 3;
 }
+
 /*
 #content1 {
     grid-area: content1;
