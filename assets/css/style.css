@@ -25,7 +25,7 @@ body {
     transition: 6s;;
 
     animation-name: animate;
-    animation-direction:alternate-reverse;
+    animation-direction:normal;
     animation-duration: 36s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
@@ -34,17 +34,17 @@ body {
 }
 @keyframes animate{
     0%{
-        background-image:url("/assets/images/solitude-entering-the-storm1.jpg");
-    }20%{
         background-image:url("/assets/images/a-spiral-daisy.jpg");
-    }40%{
+    }20%{
         background-image:url("/assets/images/peace-corn.JPG");
+    }40%{
+        background-image:url("/assets/images/solitude-entering-the-storm1.jpg"); 
     }60%{
-        background-image:url("/assets/images/stunning-salthill.jpg");
+        background-image:url("/assets/images/sunset-shade.JPG");
     }80%{
-        background-image:url("/assets/images/sunset-salthill-blue&yellow.JPG");
+        background-image:url("/assets/images/sunset-5.JPG");
     }100%{
-        background-image:url("/assets/images/a-syrphid-fly.JPG");
+        background-image:url("/assets/images/sunset-shade.JPG");
     }
 
 }
@@ -153,12 +153,11 @@ ol li a:hover {
     display: grid;
     height: 1500px;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.8fr 13fr 13fr 11fr 0.1fr;
+    grid-template-rows: 0.2fr 0.8fr 0.8fr 26fr 11fr 0.1fr;
     grid-template-areas: 
         "nav nav"
         "main main"
         "page-header page-header"
-        "h-img-container h-img-container"
         "h-img-container h-img-container"
         "carousel carousel"
         "footer footer";  
@@ -296,16 +295,6 @@ nav {
         "page-header page-header"
         "pagination pagination"
         "p-img-container p-img-container"
-    /*  "content1 content1a"
-        "content2 content2a"
-        "content3 content3a"
-        "content4 content4a"
-        "content5 content5a"
-        "content6 content6a"
-        "content7 content7a"
-        "content8 content8a"
-        "content9 content9a"
-        "content10 content10a" */
         "footer footer";
 }
 
@@ -346,77 +335,7 @@ main {
     grid-row: span 3;
 }
 
-/*
-#content1 {
-    grid-area: content1;
-}
-#content1a {
-    grid-area: content1a;
 
-}
-#content2 {
-    grid-area: content2;
-}
-#content2a {
-    grid-area: content2a;
-}
-
-#content3 {
-    grid-area: content3;
-}
-#content3a {
-    grid-area: content3a;
-}
-
-#content4 {
-    grid-area: content4;
-}
-#content4a {
-    grid-area: content4a;
-}
-
-#content5 {
-    grid-area: content5;
-}
-#content5a {
-    grid-area: content5a;
-}
-
-#content6 {
-    grid-area: content6;
-}
-#content6a {
-    grid-area: content6a;
-}
-
-#content7 {
-    grid-area: content7;
-}
-#content7a {
-    grid-area: content7a;
-}
-
-#content8 {
-    grid-area: content8;
-}
-#content8a {
-    grid-area: content8a;
-}
-
-#content9 {
-    grid-area: content9;
-}
-#content9a {
-    grid-area: content9a;
-}
-
-#content10 {
-    grid-area: content10;
-}
-#content10a {
-    grid-area: content10a;
-}
- */
 /*
 .image img:hover {
     height: 500px;  
@@ -506,52 +425,7 @@ main {
     display: block;
 }
 /* Contact Page */
-/* Style inputs with type="text", select elements and textareas */
-/* Remove outline of all elements on focus */
-/*
-.c-container {
-    background: tomato;
-    height:100vh; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
 
-.c-container {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.8fr 10fr 0.8fr;
-    grid-template-areas: 
-        "nav"
-        "main"
-        "page-header"
-        "f_image"
-        "footer";
-}
-nav {
-    grid-area: nav;
-    background: rgb(251, 255, 0);
-}
-
-main {
-    grid-area: main;
-}
-
-#page-header {
-    background: rgb(25, 0, 255);
-    grid-area: page-header; 
-}
-
-f_image {
-    grid-area: form;
-    background-image: url(/source/assets/images/ocean-colors-3.jpg);
-}
-
-footer {
-    background: rgb(0, 183, 255);
-    grid-area: footer; 
-}*/
 
 form { max-width:420px; margin:50px auto; }
 
@@ -600,44 +474,7 @@ textarea {
 
 /*media query to make responsive */
 
-@media only screen and (max-width:750px){
-    .p-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 0.4fr 0.2fr 0.1fr
-        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
-        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
-        grid-template-areas: 
-        "nav" 
-        "main" 
-        "page-header" 
-        "pagination"
-        "content1" "content1a" "content2" "content2a" "content3"
-        "content3a" "content4" "content4a" "content5" "content5a"
-        "content6" "content6a" "content7" "content7a" "content8"
-        "content8a" "content9" "content9a" "content10" "content10a" 
-        "footer";
-    }
-    /* Home page css starts here */
-    .home-image {
-        width: 2000px;
-        height: 200px;
-        position: relative;
-    }
-    .h-container { 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 0.2fr 0.4fr 0.2fr 13fr 13fr 13fr 13fr 11fr 0.8fr;
-        grid-template-areas: 
-            "nav"
-            "main"
-            "page-header"
-            "nav-img1" 
-            "nav-img2"
-            "nav-img3" 
-            "nav-img4"
-            "carousel"
-            "footer";  
-    }
-}
+
 /* Hamburger Menu-: Made by Erik Terwan 24th of November 2015-MIT License */
    
  
@@ -783,33 +620,60 @@ textarea {
  {
    transform: none;
  }
-
+/* Media queries to make responsive  */
 @media only screen and (max-width:550px){
     .h-container { 
         grid-template-columns: 1fr; 
-        grid-template-rows: 0.2fr 0.4fr 0.2fr 13fr 13fr 11fr 0.8fr;
+        grid-template-rows: 0.2fr 0.4fr 0.2fr 26fr 11fr 0.8fr;
         grid-template-areas: 
             "nav"
             "main"
             "page-header"
-            "nav-img1" 
-            "nav-img2"
+            "h-img-container"
             "carousel"
             "footer"; 
     }
     .p-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.2fr 0.1fr 
-        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
-        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
+        20fr 0.1fr;
         grid-template-areas: 
         "nav" 
         "main" 
         "page-header" 
-        "content1" "content1a" "content2" "content2a" "content3"
-        "content3a" "content4" "content4a" "content5" "content5a"
-        "content6" "content6a" "content7" "content7a" "content8"
-        "content8a" "content9" "content9a" "content10" "content10a" 
+        "p-img-container"
         "footer";
+    }
+}
+
+@media only screen and (max-width:750px){
+    .p-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.4fr 0.2fr 0.1fr
+        20fr 0.1fr;
+        grid-template-areas: 
+        "nav" 
+        "main" 
+        "page-header" 
+        "pagination"
+        "p-img-container"
+        "footer";
+    }
+    /* Home page css starts here */
+    .home-image {
+        width: 2000px;
+        height: 200px;
+        position: relative;
+    }
+    .h-container { 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.2fr 0.4fr 0.2fr 26fr 11fr 0.8fr;
+        grid-template-areas: 
+            "nav"
+            "main"
+            "page-header"
+            "h-img-container"
+            "carousel"
+            "footer";  
     }
 }
