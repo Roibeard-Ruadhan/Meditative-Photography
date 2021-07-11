@@ -151,15 +151,15 @@ ol li a:hover {
 
 .h-container {
     display: grid;
-    height: 1600px;
+    height: 1500px;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.2fr 0.8fr 0.8fr 13fr 13fr 11fr 0.1fr;
     grid-template-areas: 
         "nav nav"
         "main main"
         "page-header page-header"
-        "nav-img1 nav-img2"
-        "nav-img3 nav-img4"
+        "h-img-container h-img-container"
+        "h-img-container h-img-container"
         "carousel carousel"
         "footer footer";  
 }
@@ -175,52 +175,101 @@ nav {
     grid-area: page-header; 
     padding: 20px 60px;
 }
+
+.image-container {
+    grid-area: h-img-container;
+    height: 2000px;
+    width: 100%;
+    position: relative;
+    column-count: 2;
+    padding: 10px;
+}
+
 /* targeting the images directly to make sure the size is fitting in the container proportionally */
 /* Image as a second, more expressive option to link to Portfolio*/
-
 #nav-img1 {
-    grid-area: nav-img1;
+    grid-area: h-img-container;
     height: 400px;
-    width: 600px;
+    width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 20px;
+}  
+#nav-img1 img {
+    grid-area: h-img-container;
+    height: 400px;
+    width: 700px;
+    padding: 20px;
     position:relative;
     object-fit:contain;
     overflow: hidden;
     cursor: pointer;
-    margin: 2px; 
+    margin: 2rem auto 1rem;
+    border-radius: 20px;
+    
 } 
 
 /* Image as a second, more expressive option to link to About page*/
-
 #nav-img2 {
-    grid-area: nav-img2; 
+    grid-area: h-img-container;
     height: 400px;
-    width: 600px;
+    width: 700px;
+    margin: 4rem auto 1rem;
+    border-radius: 20px;
+}  
+#nav-img2 img {
+    grid-area: h-img-container; 
+    height: 400px;
+    width: 700px;
+    padding: 20px;
     position:relative;
     object-fit:contain;
     cursor: pointer;
-    margin: 2px;
+    margin: 4rem auto 1rem;
+    border-radius: 20px;
+    
 }
-
 #nav-img3 {
-    grid-area: nav-img3;
+    grid-area: h-img-container;
     height: 400px;
-    width: 600px;
+    width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 20px;
+}  
+#nav-img3 img {
+    grid-area: h-img-container;
+    height: 400px;
+    width: 700px;
+    padding: 20px;
     position:relative;
     object-fit:contain;
     overflow: hidden;
     cursor: pointer;
-    margin: 2px;
+    margin: 3.3rem auto 1rem;
+    border-radius: 20px;
+    
 }
 #nav-img4 {
-    grid-area: nav-img4;
+    grid-area: h-img-container;
     height: 400px;
-    width: 600px;
+    width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 10px;
+    display: block;
+}  
+#nav-img4 img {
+    grid-area: h-img-container;
+    height: 400px;
+    width: 700px;
+    padding: 20px;
     position:relative;
     object-fit:contain;
     overflow: hidden;
     cursor: pointer;
-    margin: 2px;
-}  
+    margin: 4rem auto 1rem;
+    border-radius: 20px;
+    
+}
+
 /* Carousel */
 .carousel {
     background: rgb(255, 0, 0);
