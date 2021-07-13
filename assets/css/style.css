@@ -377,38 +377,11 @@ footer {
     overflow: hidden;
 }
 
-/*
-.about-containter {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.8fr 13fr 13fr 11fr 0.8fr;
-    grid-template-areas: 
-        "nav nav nav nav"
-        "main main main main"
-        "page-header page-header page-header page-header"
-        "picture writing writing writing"
-        "writing writing writing picture"
-        "picture writing writing picture"
-        "footer footer footer footer"; 
-}
-
-nav {
-    grid-area: nav;
-    background: rgb(251, 255, 0);
-}
-
-main {
-    grid-area: main;
-}
-
-#page-header {
-    background: rgb(25, 0, 255);
-    grid-area: page-header; 
-}
-*/
-
 /* Blog Page HERE */
+.blog-container {
+    margin: 10px 40px 10px 40px;
+}
+
 .content-image {
     width: 50%;
     max-width: 700px;
@@ -440,8 +413,11 @@ main {
     display: block;
 }
 /* Contact Page */
+.contact-container {
+    width: 100%;
+}
 .background-image {
-    background-image: url('/assets/images/ocean-still.jpg');
+    background-image: url('/assets/images/a-DSC03120new.jpg');
     background-size: cover;
 }
 
@@ -464,7 +440,7 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #050505; }
+.feedback-input:focus { border:2px solid #ffffff; }
 
 textarea {
   height: 150px;
@@ -489,8 +465,6 @@ textarea {
 }
 
 [type="submit"]:hover { background: cyan; }
-
-/*media query to make responsive */
 
 
 /* Hamburger Menu-: Made by Erik Terwan 24th of November 2015-MIT License */
