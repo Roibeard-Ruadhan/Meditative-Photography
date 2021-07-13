@@ -316,7 +316,7 @@ main {
 .p-img-container {
     grid-area: p-img-container;
     position: relative;
-    column-count: 4;
+    column-count: 3;
     padding: 10px;
 }
 
@@ -336,12 +336,12 @@ main {
 }
 
 
-
+/*
 .image img:hover {
     height: 600px;  
     width: 1000px;  
 }
-
+*/
 footer {
     grid-area: footer; 
 }
@@ -440,7 +440,10 @@ main {
     display: block;
 }
 /* Contact Page */
-
+.background-image {
+    background-image: url('/assets/images/ocean-still.jpg');
+    background-size: cover;
+}
 
 form { max-width:420px; margin:50px auto; }
 

@@ -42,6 +42,7 @@
             <div><img src="/assets/images/logo.jpg" alt="Website logo"></div></a>
         </div>
       </div>
+    <div class="background-image">
       <!-- Header for this page -->
       <div id="page-header"><h1>CONTACT</h1></div> 
       <!--Contact table adapted from David Fitas @ https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/-->
@@ -50,12 +51,22 @@
           <input name="name" type="text" class="feedback-input" placeholder="Name" />  
 
           <input name="email" type="text" class="feedback-input" placeholder="Email" />
+
+          <p>Please select your favourite type of photography:</p>
+          <input type="radio" id="age1" name="age" value="30">
+          <label for="age1">Landscape</label><br>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">Potrait</label><br>  
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">Other</label><br><br>
+          <input type="submit" value="Submit">
           
           <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
           
           <input type="submit" value="SUBMIT"/>
         </form>
       </div>
+    </div>
   </section>
   <footer class="social-networks">
     <!--social media links-->
