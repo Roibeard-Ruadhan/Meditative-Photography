@@ -128,7 +128,7 @@ ol li a {
     width: 50px;
     height: 50px;
     display: block;
-    background-color: turquoise;
+    background-color: cyan;
 }
 
 ol li a:hover {
@@ -336,11 +336,11 @@ main {
 }
 
 
-/*
+
 .image img:hover {
-    height: 500px;  
-    width: 600px;  
-}*/
+    height: 600px;  
+    width: 1000px;  
+}
 
 footer {
     grid-area: footer; 
@@ -424,6 +424,21 @@ main {
     border: 1px solid #383838;
     display: block;
 }
+.content-image1 {
+    width: 50%;
+    max-width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 50%;
+    display: block;
+}
+.content-image1 img {    
+    width: 50%;
+    max-width: 700px;
+    margin: 2rem auto 1rem;
+    border-radius: 50%;
+    border: 1px solid #383838;
+    display: block;
+}
 /* Contact Page */
 
 
@@ -470,7 +485,7 @@ textarea {
   font-weight:700;
 }
 
-[type="submit"]:hover { background:rgb(0, 215, 253); }
+[type="submit"]:hover { background: cyan; }
 
 /*media query to make responsive */
 
@@ -596,7 +611,7 @@ textarea {
    padding-top: 125px;
    right: -50px;
    
-   background: #020202;
+   background: black;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
