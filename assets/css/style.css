@@ -40,11 +40,11 @@ body {
     }40%{
         background-image:url("/assets/images/solitude-entering-the-storm1.jpg"); 
     }60%{
-        background-image:url("/assets/images/sunset-shade.JPG");
+        background-image:url("/assets/images/sunset-2better.JPG");
     }80%{
-        background-image:url("/assets/images/sunset-5.JPG");
-    }100%{
         background-image:url("/assets/images/sunset-shade.JPG");
+    }100%{
+        background-image:url("/assets/images/sunset-2better.JPG");
     }
 
 }
@@ -192,6 +192,7 @@ nav {
     width: 700px;
     margin: 2rem auto 1rem;
     border-radius: 20px;
+    display: block;
 }  
 #nav-img1 img {
     grid-area: h-img-container;
@@ -204,6 +205,7 @@ nav {
     cursor: pointer;
     margin: 2rem auto 1rem;
     border-radius: 20px;
+    display: block;
     
 } 
 
@@ -386,14 +388,14 @@ footer {
     width: 50%;
     max-width: 700px;
     margin: 2rem auto 1rem;
-    border-radius: 10px;
+    border-radius: 25px;
     display: block;
 }
 .content-image img {    
     width: 50%;
     max-width: 700px;
     margin: 2rem auto 1rem;
-    border-radius: 20px;
+    border-radius: 25px;
     border: 1px solid #383838;
     display: block;
 }
@@ -417,14 +419,14 @@ footer {
     width: 100%;
 }
 .background-image {
-    background-image: url('/assets/images/a-DSC03120new.jpg');
+    background-image: url('/assets/images/hero-image.png');
     background-size: cover;
 }
 
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   font-family: 'Josefin Slab', serif;
   font-weight:500;
   font-size: 18px;
