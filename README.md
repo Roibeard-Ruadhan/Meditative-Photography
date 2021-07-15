@@ -46,7 +46,8 @@ Shares two images of me of one with my camera & another capturing the sun over t
 ### Blog
 The blog page is where I get the opportunity to share my learnings from my experience of using meditation to enhance my enjoyment of photography & vice versa.
 ### Contact
-
+Contains a minimalist submission form which also uses the radio button to query the users photography interests.
+The background image to set a welcoming atmosphere to invite users to get in contact.
 ## Testing
 Detail test of all features to assure they are working
 
