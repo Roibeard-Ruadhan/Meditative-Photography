@@ -59,7 +59,7 @@ Detail test of all features to assure they are working
 --No errors were returned when passing through the official 
 
 ## Image Compression
- I used TinyPNG to compress all of the images on the website to reduce the lag time when loading the page. 
+I used TinyPNG to compress all of the images on the website to reduce the lag time when loading the page. 
 According to Pingdom the reduction in image size allowed the pages to load in approximately _______ seconds.
 
 ### User Stories 

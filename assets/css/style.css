@@ -18,7 +18,7 @@ body {
 .hero-image {
     background-image: url("/assets/images/solitude-entering-the-storm1");
     background-color: rgb(255, 255, 255);
-    height:100vh; 
+    max-height:100vh; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -72,9 +72,10 @@ a {
     margin: 2px;
 }
 /* Container for images?? */
+
 .image img {
-    height: 90%;
-    width: 90%;
+    max-height: 300px;
+    max-width: 500px;
     position:relative;
     object-fit:contain;
     overflow: hidden;
@@ -132,12 +133,12 @@ ol li a {
 }
 
 ol li a:hover {
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Footer */
 .social-networks {
-    height: fit-content;
+    max-height: fit-content;
 }
 .social-networks i {
     font-size: 160%;
@@ -151,7 +152,7 @@ ol li a:hover {
 
 .h-container {
     display: grid;
-    height: 1500px;
+    max-height: 1500px;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.2fr 0.8fr 0.8fr 26fr 11fr 0.1fr;
     grid-template-areas: 
@@ -177,8 +178,8 @@ nav {
 
 .image-container {
     grid-area: h-img-container;
-    height: 2000px;
-    width: 100%;
+    max-height: 2000px;
+    max-width: 100%;
     position: relative;
     column-count: 2;
     padding: 10px;
@@ -188,16 +189,16 @@ nav {
 /* Image as a second, more expressive option to link to Portfolio*/
 #nav-img1 {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     margin: 2rem auto 1rem;
     border-radius: 20px;
     display: block;
 }  
 #nav-img1 img {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     padding: 20px;
     position:relative;
     object-fit:contain;
@@ -212,15 +213,15 @@ nav {
 /* Image as a second, more expressive option to link to About page*/
 #nav-img2 {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     margin: 4rem auto 1rem;
     border-radius: 20px;
 }  
 #nav-img2 img {
     grid-area: h-img-container; 
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     padding: 20px;
     position:relative;
     object-fit:contain;
@@ -231,15 +232,15 @@ nav {
 }
 #nav-img3 {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     margin: 2rem auto 1rem;
     border-radius: 20px;
 }  
 #nav-img3 img {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     padding: 20px;
     position:relative;
     object-fit:contain;
@@ -251,16 +252,16 @@ nav {
 }
 #nav-img4 {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     margin: 2rem auto 1rem;
     border-radius: 10px;
     display: block;
 }  
 #nav-img4 img {
     grid-area: h-img-container;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
     padding: 20px;
     position:relative;
     object-fit:contain;
@@ -316,6 +317,7 @@ main {
 }
 
 .p-img-container {
+    max-width: 100%;
     grid-area: p-img-container;
     position: relative;
     column-count: 3;
@@ -366,10 +368,11 @@ footer {
 
 .banner1-container {
     background-image: url('/assets/images/ocean-colors-4.jpg');
-    width: 1400px;
+    max-width: 100%;
     height:min-content;
     object-fit: cover;
     padding: 5rem;
+    overflow: hidden;
     color: #fff;
 }
 
@@ -416,7 +419,7 @@ footer {
 }
 /* Contact Page */
 .contact-container {
-    width: 100%;
+    max-width: 100%;
 }
 .background-image {
     background-image: url('/assets/images/sunset-chat.jpg');
