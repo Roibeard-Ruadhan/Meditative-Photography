@@ -18,7 +18,7 @@ body {
 .hero-image {
     background-image: url("/assets/images/solitude-entering-the-storm1");
     background-color: rgb(255, 255, 255);
-    max-height:100vh; 
+    height:100vh; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -157,7 +157,7 @@ ol li a:hover {
     grid-template-rows: 0.2fr 0.8fr 0.8fr 26fr 11fr 0.1fr;
     grid-template-areas: 
         "nav nav"
-        "main main"
+        "main-header main-header"
         "page-header page-header"
         "h-img-container h-img-container"
         "carousel carousel"
@@ -168,7 +168,9 @@ nav {
 }
 
 .main-header {
-    grid-area: main;
+    grid-area: main-header;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #page-header {
@@ -294,10 +296,10 @@ nav {
     /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr */ 10fr 0.2fr; /* 13 Rows, 20 for images & 3 from Nav Logo & page name */
     grid-template-areas: 
         "nav nav"
-        "main main"
+        "main-header main-header"
         "page-header page-header"
         "pagination pagination"
-        "p-img-container p-img-container"
+        "container-fluid container-fluid"
         "footer footer";
 }
 
@@ -305,8 +307,8 @@ nav {
     grid-area: nav;
 }
 
-main {
-    grid-area: main;
+.main-header {
+    grid-area: main-header;
 }
 
 #page-header {
@@ -316,11 +318,10 @@ main {
     grid-area: pagination;
 }
 
-.p-img-container {
+.container-fluid {
     max-width: 100%;
-    grid-area: p-img-container;
-    position: relative;
-    column-count: 3;
+    min-width: 300px; /* Need to fix min width */
+    grid-area: container-fluid;
     padding: 10px;
 }
 
@@ -330,34 +331,19 @@ main {
     overflow: hidden;
 }
 
-.p-img-container > img {
-    width: 100%;
-}
-
-#content1 > img {
-    grid-column: span 3;
-    grid-row: span 3;
-}
+.item:hover {
+     filter: brightness(80%);
+     transform: scale(1.1);
 
 
-/*
-.image img:hover {
-    height: 600px;  
-    width: 1000px;  
 }
-*/
+.item {
+    transition: .5s ease-in-out;
+}
+
 footer {
     grid-area: footer; 
 }
-
-.images-2 {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
-}
-
-
 
 
 /* About Page */ 
@@ -388,15 +374,16 @@ footer {
 }
 
 .content-image {
-    width: 50%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 400px;
     margin: 1rem auto 1rem;
     border-radius: 25px;
     display: block;
 }
 .content-image img {    
-    width: 50%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
     margin: 2rem auto 1rem;
     border-radius: 25px;
     border: 1px solid #383838;
@@ -420,6 +407,7 @@ footer {
 /* Contact Page */
 .contact-container {
     max-width: 100%;
+    max-height: 100%;
 }
 .background-image {
     background-image: url('/assets/images/sunset-chat.jpg');
@@ -624,42 +612,42 @@ textarea {
         grid-template-rows: 0.2fr 0.4fr 0.2fr 26fr 11fr 0.8fr;
         grid-template-areas: 
             "nav"
-            "main"
+            "main-header"
             "page-header"
             "h-img-container"
             "carousel"
             "footer"; 
     }
-    .p-container {
+  /*  .p-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.2fr 0.1fr 
         20fr 0.1fr;
         grid-template-areas: 
         "nav" 
-        "main" 
+        "main-header" 
         "page-header" 
         "p-img-container"
         "footer";
-    }
+    } */
 }
 
 @media only screen and (max-width:750px){
-    .p-container {
+  /*  .p-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.4fr 0.2fr 0.1fr
         20fr 0.1fr;
         grid-template-areas: 
         "nav" 
-        "main" 
+        "main-header" 
         "page-header" 
         "pagination"
         "p-img-container"
         "footer";
-    }
+    } 
     /* Home page css starts here */
     .home-image {
-        width: 2000px;
-        height: 200px;
+        max-width: 2000px;
+        max-height: 200px;
         position: relative;
     }
     .h-container { 
@@ -667,7 +655,7 @@ textarea {
         grid-template-rows: 0.2fr 0.4fr 0.2fr 26fr 11fr 0.8fr;
         grid-template-areas: 
             "nav"
-            "main"
+            "main-header"
             "page-header"
             "h-img-container"
             "carousel"
