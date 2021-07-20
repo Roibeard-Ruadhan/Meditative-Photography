@@ -289,7 +289,6 @@ nav {
 /* .p-container for the Portfolia page Grid */
 
 .p-container {
-    font-family: ;
     display: grid;
     height: 5000px;
     width:100%;
@@ -321,10 +320,11 @@ nav {
 }
 
 .container-fluid {
+    align-items: center;
     max-width: 100%;
     min-width: 300px; /* Need to fix min width */
     grid-area: container-fluid;
-    padding: 10px;
+    padding: 10px 20px !important;
 }
 
 .image {
@@ -403,6 +403,23 @@ footer {
     max-width: 700px;
     margin: 2rem auto 1rem;
     border-radius: 50%;
+    border: 1px solid #383838;
+    display: block;
+}
+.content-image-potrait {
+    height: auto ;
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto 1rem;
+    border-radius: 25px;
+    display: block;
+}
+.content-image-potrait img {    
+    width: 100%;
+    max-width: 300px;
+    max-height: 400px;
+    margin: 2rem auto 1rem;
+    border-radius: 25px;
     border: 1px solid #383838;
     display: block;
 }
