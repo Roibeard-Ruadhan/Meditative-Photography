@@ -10,7 +10,9 @@
 body {
     font-family: 'Josefin Slab', serif !important; 
     color: black;
-    text-align: center;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     font-weight: 500;
 }
@@ -70,7 +72,8 @@ a {
     object-position: 50% 50%;
     cursor: pointer;
     margin: 1rem;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 /* Container for images?? */
 
@@ -317,6 +320,8 @@ nav {
 }
 .pagination {
     grid-area: pagination;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-fluid {
