@@ -10,7 +10,7 @@
 body {
     font-family: 'Josefin Slab', serif !important; 
     color: black;
-    text-align: center !important;
+    text-align: center !important;  /* The use of important to overide bootstrap in Portfolio */
     justify-content: center;
     align-items: center;
     font-size: 2rem;
@@ -443,7 +443,7 @@ form { max-width:420px; margin:50px auto; }
 .feedback-input {
   color:rgb(0, 0, 0);
   font-family: 'Josefin Slab', serif;
-  font-weight:500;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
