@@ -6,17 +6,17 @@
     border: none;
     box-sizing: border-box;
 }
-
+/* The use of important to overide bootstrap which is used in Portfolio to make gallery functional */
 body {
     font-family: 'Josefin Slab', serif !important; 
     color: black;
-    text-align: center !important;  /* The use of important to overide bootstrap in Portfolio */
+    text-align: center !important;  
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     font-weight: 500;
 }
-
+/* The Hero image/images are on the introduction page to set a mood before entering the wbesi */
 .hero-image {
     background-image: url("/assets/images/solitude-entering-the-storm1");
     background-color: rgb(255, 255, 255);
@@ -182,7 +182,7 @@ nav {
     max-height: 100%;
 }
 
-#page-header {
+#page-header > #logo {
     grid-area: page-header; 
     padding: 20px 60px;
 }
