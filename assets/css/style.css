@@ -293,7 +293,7 @@ nav {
 
 .p-container {
     display: grid;
-    height: 5000px;
+    height: 1800px;
     width:100%;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.1fr 0.4fr 0.4fr 0.2fr
@@ -329,12 +329,12 @@ nav {
     max-width: 100%;
     min-width: 300px; /* Need to fix min width */
     grid-area: container-fluid;
-    padding: 10px 20px !important;
+    padding-bottom: 1rem !important;
 }
 
 .image {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     overflow: hidden;
 }
 
@@ -346,10 +346,13 @@ nav {
 }
 .item {
     transition: .5s ease-in-out;
+    padding-bottom: 1rem;
 }
 
 footer {
     grid-area: footer; 
+    align-items: center;
+    justify-content: center;
 }
 
 
