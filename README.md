@@ -76,7 +76,7 @@ As a user, I will enjoy to watch how the images on the website improve over time
 
 ## Checking Responsiveness
 
-## Unfixed Bigs
+## Unfixed Bugs
 
 ### Deployment
 
