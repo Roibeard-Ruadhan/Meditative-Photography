@@ -4,6 +4,8 @@ This websites purpose is a way to share the benefits I have found with linking m
 I am far from a professional in either area but when they are linked together I feel I can offer value through my experiences in findng the complimentary benefit's of meditation to photography & vice versa.
 
 This website hopes to build on every aspect of the page after recently getting a new camera to capture more disctinct images to constantly build on the foundation set. Also to try to add real value to anybody who enters the page by updating the Blog with relevant & hopefully inspiring information. 
+### Live Prototype Demo
+https://roibeard-ruadhan.github.io/Roibeard-Ruadhan-Photography/
 
 ### UX Choices
 
