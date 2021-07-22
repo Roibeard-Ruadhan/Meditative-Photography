@@ -169,7 +169,7 @@ ol li a:hover {
         "nav nav"
         "main-header main-header"
         "page-header page-header"
-        "h-img-container h-img-container"
+        "container-fluid-1 container-fluid-1"
         "carousel carousel"
         "footer footer";  
 }
@@ -189,6 +189,22 @@ nav {
     max-width: 50%;
 }
 
+.container-fluid-1 {
+    align-items: center;
+    max-width: 100%;
+    min-width: 300px; /* Need to fix min width */
+    grid-area: container-fluid-1;
+    margin: 1rem;
+}
+.container-fluid-1 img {
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.item-1 {
+    
+}
+/*
 .image-container {
     grid-area: h-img-container;
     max-height: 2000px;
@@ -197,9 +213,10 @@ nav {
     column-count: 2;
     padding: 10px;
 }
-
+ */
 /* targeting the images directly to make sure the size is fitting in the container proportionally */
 /* Image as a second, more expressive option to link to Portfolio*/
+/*
 #nav-img1 {
     grid-area: h-img-container;
     max-height: 400px;
@@ -224,6 +241,7 @@ nav {
 } 
 
 /* Image as a second, more expressive option to link to About page*/
+/*
 #nav-img2 {
     grid-area: h-img-container;
     max-height: 400px;
@@ -283,7 +301,7 @@ nav {
     margin: 4rem auto 1rem;
     border-radius: 20px;
     
-}
+}  */
 
 /* Carousel */
 .carousel {
