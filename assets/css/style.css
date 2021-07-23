@@ -18,7 +18,7 @@ body {
 }
 /* The Hero image/images are on the introduction page to set a mood before entering the wbesi */
 .hero-image {
-    background-image: url("assets/images/solitude-entering-the-storm1");
+    background-image: url("/assets/images/solitude-entering-the-storm1");
     background-color: rgb(255, 255, 255);
     height:100vh; 
     width: 100vw;
@@ -37,17 +37,17 @@ body {
 }
 @keyframes animate{
     0%{
-        background-image:url("assets/images/a-spiral-daisy.jpg");
+        background-image:url("/assets/images/a-spiral-daisy.jpg");
     }20%{
-        background-image:url("assets/images/peace-corn.JPG");
+        background-image:url("/assets/images/peace-corn.JPG");
     }40%{
-        background-image:url("assets/images/solitude-entering-the-storm1.jpg"); 
+        background-image:url("/assets/images/solitude-entering-the-storm1.jpg"); 
     }60%{
-        background-image:url("assets/images/sunset-2better.JPG");
+        background-image:url("/assets/images/sunset-2better.JPG");
     }80%{
-        background-image:url("assets/images/sunset-shade.JPG");
+        background-image:url("/assets/images/sunset-shade.JPG");
     }100%{
-        background-image:url("assets/images/sunset-2better.JPG");
+        background-image:url("/assets/images/sunset-2better.JPG");
     }
 
 }
