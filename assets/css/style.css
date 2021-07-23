@@ -18,7 +18,7 @@ body {
 }
 /* The Hero image/images are on the introduction page to set a mood before entering the wbesi */
 .hero-image {
-    background-image: url("/assets/images/solitude-entering-the-storm1");
+    background-image: url("/assets/images/a-spiral-daisy.jpg");
     background-color: rgb(255, 255, 255);
     height:100vh; 
     width: 100vw;
@@ -106,7 +106,7 @@ color: rgb(0, 0, 0);
 text-decoration: underline;
 }
 
-/* Pagination CSS  */
+/* Pagination  */
 
 .pagination {
     position: relative;
@@ -201,9 +201,6 @@ nav {
     padding: 2rem;
 }
 
-.item-1 {
-    
-}
 /*
 .image-container {
     grid-area: h-img-container;
@@ -214,94 +211,6 @@ nav {
     padding: 10px;
 }
  */
-/* targeting the images directly to make sure the size is fitting in the container proportionally */
-/* Image as a second, more expressive option to link to Portfolio*/
-/*
-#nav-img1 {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    margin: 2rem auto 1rem;
-    border-radius: 20px;
-    display: block;
-}  
-#nav-img1 img {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    padding: 20px;
-    position:relative;
-    object-fit:contain;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 2rem auto 1rem;
-    border-radius: 20px;
-    display: block;
-    
-} 
-
-/* Image as a second, more expressive option to link to About page*/
-/*
-#nav-img2 {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    margin: 4rem auto 1rem;
-    border-radius: 20px;
-}  
-#nav-img2 img {
-    grid-area: h-img-container; 
-    max-height: 400px;
-    max-width: 700px;
-    padding: 20px;
-    position:relative;
-    object-fit:contain;
-    cursor: pointer;
-    margin: 4rem auto 1rem;
-    border-radius: 20px;
-    
-}
-#nav-img3 {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    margin: 2rem auto 1rem;
-    border-radius: 20px;
-}  
-#nav-img3 img {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    padding: 20px;
-    position:relative;
-    object-fit:contain;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 3.3rem auto 1rem;
-    border-radius: 20px;
-    
-}
-#nav-img4 {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    margin: 2rem auto 1rem;
-    border-radius: 10px;
-    display: block;
-}  
-#nav-img4 img {
-    grid-area: h-img-container;
-    max-height: 400px;
-    max-width: 700px;
-    padding: 20px;
-    position:relative;
-    object-fit:contain;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 4rem auto 1rem;
-    border-radius: 20px;
-    
-}  */
 
 /* Carousel */
 .carousel {
@@ -383,7 +292,7 @@ footer {
 /* Content pages with similar attributes linked here. About Page & Blog Page HERE */
 
 .banner1-container {
-    background-image: url("/assets/images/rose-banner.JPG");
+    background-image: url("assets/images/rose-banner.JPG");
     max-width: 100%;
     height:min-content;
     object-fit: contain;
@@ -420,7 +329,7 @@ footer {
     margin: 1rem auto 1rem;
     border-radius: 25px;
     border: 1px solid #383838;
-    display: block;
+    display: inline-block;
     overflow: hidden;
 }
 
