@@ -16,7 +16,7 @@ body {
     font-size: 2rem;
     font-weight: 500;
 }
-/* The Hero image/images are on the introduction page to set a mood before entering the wbesi */
+/* The Hero image/images are on the introduction page to set a mood before entering the website */
 .hero-image {
     background-image: url("assets/images/a-spiral-daisy.jpg");
     background-color: rgb(255, 255, 255);
