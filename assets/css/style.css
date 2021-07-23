@@ -18,7 +18,7 @@ body {
 }
 /* The Hero image/images are on the introduction page to set a mood before entering the wbesi */
 .hero-image {
-    background-image: url("/assets/images/solitude-entering-the-storm1");
+    background-image: url("assets/images/solitude-entering-the-storm1");
     background-color: rgb(255, 255, 255);
     height:100vh; 
     width: 100vw;
@@ -37,17 +37,17 @@ body {
 }
 @keyframes animate{
     0%{
-        background-image:url("/assets/images/a-spiral-daisy.jpg");
+        background-image:url("assets/images/a-spiral-daisy.jpg");
     }20%{
-        background-image:url("/assets/images/peace-corn.JPG");
+        background-image:url("assets/images/peace-corn.JPG");
     }40%{
-        background-image:url("/assets/images/solitude-entering-the-storm1.jpg"); 
+        background-image:url("assets/images/solitude-entering-the-storm1.jpg"); 
     }60%{
-        background-image:url("/assets/images/sunset-2better.JPG");
+        background-image:url("assets/images/sunset-2better.JPG");
     }80%{
-        background-image:url("/assets/images/sunset-shade.JPG");
+        background-image:url("assets/images/sunset-shade.JPG");
     }100%{
-        background-image:url("/assets/images/sunset-2better.JPG");
+        background-image:url("assets/images/sunset-2better.JPG");
     }
 
 }
@@ -64,7 +64,7 @@ a {
     text-decoration:none;
 }
 
-#logo img[src="/assets/images/logo.jpg"] {
+#logo img[src="assets/images/logo_small.Jpg"] {
     color: rgb(255, 255, 255);
     max-width: 75%;
     max-height: 15rem;
@@ -389,7 +389,7 @@ footer {
 }
 
 .banner1-container {
-    background-image: url('/assets/images/ocean-colors-4.jpg');
+    background-image: url('assets/images/ocean-colors-4_small.jpg');
     max-width: 100%;
     height:min-content;
     object-fit: cover;
@@ -463,7 +463,7 @@ footer {
     max-height: 100%;
 }
 .background-image {
-    background-image: url('/assets/images/sunset-chat.jpg');
+    background-image: url('assets/images/sunset-chat.jpg');
     background-size: cover;
 }
 
@@ -667,7 +667,7 @@ textarea {
             "nav"
             "main-header"
             "page-header"
-            "h-img-container"
+            "container-fluid-1"
             "carousel"
             "footer"; 
     }
@@ -710,7 +710,7 @@ textarea {
             "nav"
             "main-header"
             "page-header"
-            "h-img-container"
+            "container-fluid-1"
             "carousel"
             "footer";  
     }
