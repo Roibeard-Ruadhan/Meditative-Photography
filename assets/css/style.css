@@ -463,7 +463,7 @@ footer {
     max-height: 100%;
 }
 .background-image {
-    background-image: url('assets/images/sunset-chat.jpg');
+    background-image: url('/assets/images/sunset-chat.jpg');
     background-size: cover;
 }
 
