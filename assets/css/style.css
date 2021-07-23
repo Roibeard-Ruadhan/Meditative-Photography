@@ -468,7 +468,7 @@ targeting image & image container */
 #page-header-c {
     margin-top: 1rem;
 }
-.background-image {
+#background-image {
     background-image: url('/assets/images/sunset-chat.jpg');
     background-size: cover;
 }
