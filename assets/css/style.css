@@ -292,7 +292,7 @@ footer {
 /* Content pages with similar attributes linked here. About Page & Blog Page HERE */
 
 .banner1-container {
-    background-image: url("assets/images/rose-banner.JPG");
+    background-image: url("../images/rose-banner.JPG");
     max-width: 100%;
     height:min-content;
     object-fit: contain;
