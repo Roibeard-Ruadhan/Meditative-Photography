@@ -200,6 +200,34 @@ nav {
     margin: 1rem;
     padding: 2rem;
 }
+.gallery {
+    grid-area: container-fluid-1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+}
+.gallery a{
+    max-width: 100%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 px 5px black;
+}
+/*
+.gallery a img:hover{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+} */
 
 /*
 .image-container {
