@@ -193,52 +193,17 @@ nav {
     min-width: 300px; /* Need to fix min width */
     grid-area: container-fluid-1;
     margin: 1rem;
-    :display: inline-block;
+    display: inline-block;
 }
 .container-fluid-1 img {
     margin: 1rem;
     padding: 2rem;
 }
-.gallery {
-    grid-area: container-fluid-1;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 1rem;
-
-}
-.gallery a{
-    max-width: 100%;
-    height: 300px;
-    margin: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 px 5px black;
-}
-/*
-.gallery a img:hover{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.gallery img {
-    transition: 1s;
-    padding: 15px;
-    width: 200px;
-} */
-
-/*
-.image-container {
-    grid-area: h-img-container;
-    max-height: 2000px;
-    max-width: 100%;
-    position: relative;
-    column-count: 2;
-    padding: 10px;
+ /*
+.row {
+    display: block;
 }
  */
-
 /* Carousel */
 .carousel {
     background: rgb(255, 0, 0);
@@ -310,6 +275,46 @@ nav {
     transition: .5s ease-in-out;
     padding-bottom: 1rem;
 }
+/*
+.gallery {
+    grid-area: container-fluid-1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+}
+.gallery a{
+    max-width: 100%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 px 5px black;
+} */
+/*
+.gallery a img:hover{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+} */
+
+/*
+.image-container {
+    grid-area: h-img-container;
+    max-height: 2000px;
+    max-width: 100%;
+    position: relative;
+    column-count: 2;
+    padding: 10px;
+}
+ */
 
 footer {
     grid-area: footer; 
