@@ -162,13 +162,13 @@ ol li a:hover {
     display: grid;
     max-height: 1500px;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.8fr 0.8fr 26fr 11fr 0.1fr;
+    grid-template-rows: 0.2fr 0.8fr 0.8fr 4fr 0.1fr;
     grid-template-areas: 
         "nav nav"
         "main-header main-header"
         "page-header page-header"
         "container-fluid-1 container-fluid-1"
-        "carousel carousel"
+   /*   "carousel carousel" */
         "footer footer";  
 }
 nav {
@@ -196,7 +196,6 @@ nav {
     display: inline-block;
 }
 .container-fluid-1 img {
-    margin: 1rem;
     padding: 2rem;
 }
  /*
@@ -220,7 +219,7 @@ nav {
 
 .p-container {
     display: grid;
-    height: 1800px;
+    height: 100%;
     width:100%;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.1fr 0.4fr 0.4fr 0.2fr
@@ -613,13 +612,13 @@ textarea {
 @media only screen and (max-width:550px){
     .h-container { 
         grid-template-columns: 1fr; 
-        grid-template-rows: 0.2fr 0.4fr 0.2fr 26fr 11fr 0.8fr;
+        grid-template-rows: 0.2fr 0.4fr 0.2fr 4fr 0.8fr;
         grid-template-areas: 
             "nav"
             "main-header"
             "page-header"
             "container-fluid-1"
-            "carousel"
+       /*   "carousel" */
             "footer"; 
     }
   /*  .p-container {
@@ -656,13 +655,13 @@ textarea {
     }
     .h-container { 
         grid-template-columns: 1fr; 
-        grid-template-rows: 0.2fr 0.4fr 0.2fr 26fr 11fr 0.8fr;
+        grid-template-rows: 0.2fr 0.4fr 0.2fr 4fr 0.8fr;
         grid-template-areas: 
             "nav"
             "main-header"
             "page-header"
             "container-fluid-1"
-            "carousel"
+     /*     "carousel" */
             "footer";  
     }
 }
