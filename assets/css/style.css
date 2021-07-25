@@ -193,6 +193,7 @@ nav {
     min-width: 300px; /* Need to fix min width */
     grid-area: container-fluid-1;
     margin: 1rem;
+    :display: inline-block;
 }
 .container-fluid-1 img {
     margin: 1rem;
