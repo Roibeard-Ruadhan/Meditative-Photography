@@ -266,12 +266,14 @@ nav {
 }
 
 .item:hover {
-     filter: brightness(80%);
+     filter: brightness(100%);
      transform: scale(1.1);
 
 
 }
+/* To give the effect of when you scroll of the image with finger or mouse it will expand slightly & enhance slightly in colour  */
 .item {
+    filter: brightness(75%);
     transition: .5s ease-in-out;
     padding-bottom: 1rem;
 }
