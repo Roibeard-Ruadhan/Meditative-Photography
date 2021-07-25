@@ -4,13 +4,11 @@ The purpose of this website is a way to share the benefits I have found with lin
 I am far from a professional in either area but when they are linked together I feel I can offer value through sharing my experiences of the complimentary benefits of meditation to photography & vice versa.
 
 This website hopes to build on every aspect of the page after recently getting a new camera to capture more distinct images to constantly build on the foundation set. Also to try to add real value to anybody who enters the page by updating the Blog with relevant & hopefully inspiring information. 
-![Roibéard Ruadhán Photography](assets/readme-files/responsive-image.png)
 ### Live Prototype Demo
 [Live link here](https://roibeard-ruadhan.github.io/Roibeard-Ruadhan-Photography/)
 
 ### UX Choices
-
-*Image of responsiveness to all applications*
+![Roibéard Ruadhán Photography](assets/readme-files/responsive-image.png) 
 
 ### The Introductory page
 The Introductory page was set up to develop an atmosphere of intrigue & somewhat excitement before entering the Home page.
