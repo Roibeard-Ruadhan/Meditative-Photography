@@ -291,26 +291,22 @@ footer {
     margin-top: auto;
     height: 4ems;
 }
+
+/* Blog Page */
+.blog-container {
+    max-width: 100%;
+    position: relative;
+}
+
+/* About page */
+.about-container {
+    max-width: 100%;
+    position: relative;
+}
+
 /* Content pages with similar attributes linked here. About Page & Blog Page HERE */
 
-.banner1-container {
-    background-image: url("../images/rose-banner.JPG");
-    max-width: 100%;
-    height:min-content;
-    object-fit: contain;
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-    object-position: 50% 50%;
-    overflow: hidden;
-    color: #fff;
-}
 
-.banner1 {
-    width: 98%;
-    object-fit: cover;
-    overflow: hidden;
-}
 
 .content-container {
     margin: 10px 40px 10px 40px;
