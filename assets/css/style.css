@@ -370,7 +370,8 @@ targeting image & image container */
     max-height: 100%;
 }
 #page-header-c {
-    margin-top: 1rem;
+    padding-top: 1rem;
+
 }
 #background-image {
     background-image: url('../images/sunset-chat.jpg');
