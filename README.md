@@ -72,6 +72,15 @@ As a user, I would like to learn more about meditation & how it intertwines in m
 As a user, I will enjoy watching how the images on the website improve over time & experience with each new shot that is taken.
 
 ### Testing
+I completed many online tests to test the over all performance of the website using various online tools like GTMetrix 
+ ![GTMetrix Performance Report](assets/readme-files/gtmetrix-speed-test.png) 
+When I recieved the results I would review where I can boost performance & do a comparison test after making the required changes
+![GTMetrix Performance Report 2](assets/readme-files/gtmetrix-speed-test.png)
+Comparing performance for before & after changes
+![GTMetrix Performance Report 3](assets/readme-files/compare-performance.png)
+Overall rising over time
+![GTMetrix Performance Report 4](assets/readme-files/gtmetrix-grade.png)
+I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users viewpoint through the process of building it. I also recieved some complimentory feedback which really helped with the process of key area's I can improve further.  
 
 ## Checking Responsiveness
 
