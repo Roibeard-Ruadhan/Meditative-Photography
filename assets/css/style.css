@@ -104,7 +104,7 @@ color: rgb(0, 0, 0);
 text-decoration: underline;
 }
 
-/* Pagination  */
+/* Pagination adapted from EasyWebCode tutorial on YouTube https://www.youtube.com/watch?v=mU--VbRr-hM  */
 
 .pagination {
     position: relative;
@@ -168,7 +168,7 @@ ol li a:hover {
         "main-header main-header"
         "page-header page-header"
         "container-fluid-1 container-fluid-1"
-   /*   "carousel carousel" */
+   /*   "carousel carousel" The Carousel will be completed here when I am more familiar with bootstrap */
         "footer footer";  
 }
 nav {
@@ -199,16 +199,6 @@ nav {
     padding: 2rem;
     max-width: 100%;
     max-height: 100%;
-}
- /*
-.row {
-    display: block;
-}
- */
-/* Carousel */
-.carousel {
-    background: rgb(255, 0, 0);
-    grid-area: carousel; 
 }
 
 .footer {
