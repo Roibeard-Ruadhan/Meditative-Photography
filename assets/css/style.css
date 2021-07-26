@@ -285,6 +285,7 @@ nav {
     max-width: 100%;
     height:inherit;
     position: relative;
+    display: flexbox;
 }
 #item-1 img {
     filter: brightness(75%);
