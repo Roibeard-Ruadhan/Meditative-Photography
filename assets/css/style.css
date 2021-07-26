@@ -221,11 +221,11 @@ nav {
 
 .p-container {
     display: grid;
-    height: 100%;
+    max-height: 1300px;
     width:100%;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.1fr 0.4fr 0.4fr 0.2fr
-    /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr */ 10fr 0.2fr; /* 13 Rows, 20 for images & 3 from Nav Logo & page name */
+     8fr 0.2fr; 
     grid-template-areas: 
         "nav nav"
         "main-header main-header"
@@ -278,46 +278,6 @@ nav {
     transition: .5s ease-in-out;
     padding-bottom: 1rem;
 }
-/*
-.gallery {
-    grid-area: container-fluid-1;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 1rem;
-
-}
-.gallery a{
-    max-width: 100%;
-    height: 300px;
-    margin: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 px 5px black;
-} */
-/*
-.gallery a img:hover{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.gallery img {
-    transition: 1s;
-    padding: 15px;
-    width: 200px;
-} */
-
-/*
-.image-container {
-    grid-area: h-img-container;
-    max-height: 2000px;
-    max-width: 100%;
-    position: relative;
-    column-count: 2;
-    padding: 10px;
-}
- */
 
 footer {
     grid-area: footer; 
@@ -494,7 +454,6 @@ textarea {
    color: cyan;
  }
  
- 
  #menuToggle input
  {
    display: block;
@@ -623,36 +582,36 @@ textarea {
        /*   "carousel" */
             "footer"; 
     }
-  /*  .p-container {
+    .p-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.2fr 0.1fr 
-        20fr 0.1fr;
+        4fr 0.1fr;
         grid-template-areas: 
         "nav" 
         "main-header" 
         "page-header" 
-        "p-img-container"
+        "container-fluid"
         "footer";
-    } */
+    } 
 }
 
 @media only screen and (max-width:750px){
-  /*  .p-container {
+    .p-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.4fr 0.2fr 0.1fr
-        20fr 0.1fr;
+        4fr 0.1fr;
         grid-template-areas: 
         "nav" 
         "main-header" 
         "page-header" 
         "pagination"
-        "p-img-container"
+        "container-fluid"
         "footer";
     } 
     /* Home page css starts here */
     .home-image {
-        max-width: 2000px;
-        max-height: 200px;
+        max-width: 100%;
+        max-height: 100%;
         position: relative;
     }
     .h-container { 
