@@ -79,6 +79,7 @@ When I recieved the results I would review where I can boost performance & do a 
 Comparing performance for before & after changes
 ![GTMetrix Performance Report 3](assets/readme-files/compare-performance.png)
 ![GTMetrix Performance Report 4](assets/readme-files/gtmetrix-grade.png)
+Constantly using dev tools on google & various other browsers to test new code.
 I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users viewpoint through the process of building it. I also recieved some complimentory feedback which really helped with the process of key area's I can improve further.  
 
 ## Checking Responsiveness
@@ -90,8 +91,16 @@ When sending to for user testing, I requested them to check on phone/laptop/ipad
 
 
 ### Deployment
+The site was deployed using GitHub pages. 
 
-### Credits
+Clicked into the Github repository, navigate to the settings tab.
+Scroll down to github pages & click into the new tab.
+Click on the tab under Source, select Master branch & click save. 
+As soon as the above is complete the deployed page url will appear on above Source & it will turn green when it is ready.
+
+### Ackowledgments
+Felipe Souza Alarcon for all his support & the information he supplied to help build
+Kasia for her neverending support & endless supply of great information in times
 
 ### Content
 
