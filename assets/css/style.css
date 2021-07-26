@@ -147,6 +147,7 @@ ol li a:hover {
     align-items: center;
     justify-content: center;
     margin-top: auto;
+    bottom:0;
 }
 .social-networks i {
     font-size: 2em;
@@ -211,6 +212,7 @@ nav {
     justify-content: center;
     margin-top: auto;
     height: 4ems;
+    bottom:0;
 }
 
 /* .p-container for the Portfolia page Grid */
@@ -290,6 +292,7 @@ footer {
     justify-content: center;
     margin-top: auto;
     height: 4ems;
+    bottom:0;
 }
 
 /* Blog Page */
