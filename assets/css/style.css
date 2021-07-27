@@ -62,6 +62,7 @@ body {
 a {
     text-decoration:none;
 }
+/* The logo image has been place on the intro page wrapped in an <a> tag to allow a second option to access the home page */
 
 #logo img[src="assets/images/logo_small.Jpg"] {
     color: rgb(255, 255, 255);
@@ -76,7 +77,7 @@ a {
     align-items: center;
 }
 /* Container for images?? */
-
+/*
 .image img {
     max-height: 300px;
     max-width: 500px;
@@ -86,14 +87,20 @@ a {
     cursor: pointer;
     margin: 2px;
   } 
-
+*/
 /*style button on Entry Page */
-button {
+/* I studied stack overflow after discussing why my button was not passing the html validator to find a solution, 
+by adding a class button rather than an actual <button>, you resolve the wrapping of a button using a. Then target using a.button */
+/* I used the font at 500 to make more visible & user friendly */
+/*border radius of 50% was important for me to reduce the formality of a typical button, with a more welcoming rounded edge */
+/* Added more padding as the circular shape is not welcoming for capital letters like the W at the beginning of Welcome */
+a.button {
     background-color: #ffffff;
     color: rgb(3, 3, 3);
-    padding: 10px;
+    font: solid 20px;
+    padding: 20px;
     text-align: center;
-    text-decoration: none;
+    text-decoration:solid;
     border: 1px solid black;
     position: relative;
     left: 31%;
