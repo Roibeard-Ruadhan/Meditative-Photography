@@ -31,10 +31,10 @@ I used the font in the image as the standard font for all the content to add con
 
 ### The footer
 Use of Font Awesome icons without text display a contemporary, minimalist platform for social links.
-Added a direct link to my Instagram account to allow users to connect & to view other parts of my portfolio not on the website.
+Added a direct link to my Instagram account to allow users' to connect & to view other parts of my portfolio not on the website.
 
 ### Portfolio 
-The 3-page portfolio is all contained within a plain white background which draws the user's attention to the images. The plain background also allows the images full expression without any external distractions.
+The 3-page portfolio is all contained within a plain white background which draws the users' attention to the images. The plain background also allows the images full expression without any external distractions.
 ****The images when clicked open up into a window for scanning through the images one by one using bootstrap.* TBC
 
 The page menu was added for ease of access through the portfolio without interfering with the menu.
@@ -48,7 +48,7 @@ Shares two images of me of one with my camera & another capturing the sun over t
 The blog page is where I get the opportunity to share my learnings from my experience of using meditation to enhance my enjoyment of photography & vice versa.
 ### Contact
 Contains a minimalist submission form that also uses the radio button to query the users' photography interests.
-The background image's intention is to set a welcoming atmosphere to invite users to get in contact.
+The background image's intention is to set a welcoming atmosphere to invite users' to get in contact.
 ## Testing
 Detail test of all features to assure they are working
 
@@ -74,18 +74,18 @@ As a user, I will enjoy watching how the images on the website improve over time
 ### Testing
 I completed many online tests to check the over all performance of the website using various online tools like GTMetrix 
  ![GTMetrix Performance Report](assets/readme-files/gtmetrix-speed-test.png) 
-When I recieved the results I would review where I can boost performance & do a comparison test after making the required changes
+When I obtained the results I would review where I can boost performance & do a comparison test after making the required changes
 ![GTMetrix Performance Report 2](assets/readme-files/gtmetrix-speed-test.png)
 Comparing performance for before & after changes
 ![GTMetrix Performance Report 3](assets/readme-files/compare-performance.png)
 ![GTMetrix Performance Report 4](assets/readme-files/gtmetrix-grade.png)
 Constantly using dev tools on google & various other browsers to test new code.
-I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users viewpoint through the process of building it. I also recieved some complimentory feedback which really helped with the process of key area's I can improve further.  
+I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint through the process of building it. I also received some complimentory feedback which really helped with the process of key area's I can improve further.  
 
 ## Checking Responsiveness
 I used google inspect primaraly to inspect how each the device responded on every page. 
 
-When sending to for user testing, I requested them to check on phone/laptop/ipad etc. I recieved a certain feedback from one person who checked on every browser where I was advised that Firefox browser in particular reacted differently to various functions. The main issue was the on the index.html Instroduction page the images instead of gradually transitioning every 6 seconds, they would slide across the the screen every 6 seconds.
+When sending to for user testing, I requested them to check on phone/laptop/ipad etc. I received a certain feedback from one person who checked on every browser where I was advised that Firefox browser in particular reacted differently to various functions. The main issue was the on the index.html Instroduction page the images instead of gradually transitioning every 6 seconds, they would slide across the the screen every 6 seconds.
 
 ## Unfixed Bugs
 
@@ -94,7 +94,7 @@ When sending to for user testing, I requested them to check on phone/laptop/ipad
 The site was deployed using GitHub pages. 
 
 Clicked into the Github repository, navigate to the settings tab.
-Scroll down to github pages & click into the new tab.
+Scroll down to Github pages & click into the new tab.
 Click on the tab under Source, select Master branch & click save. 
 As soon as the above is complete the deployed page url will appear on above Source & it will turn green when it is ready.
 
