@@ -13,7 +13,7 @@ This website hopes to build on every aspect of the page after recently getting a
 ### The Introductory page
 The Introductory page was set up to develop an atmosphere of intrigue & somewhat excitement before entering the Home page.
 
-If the user is coming in with an open perspective, a mood of deeper introspection of what to expect on entering, ideally this will bring more value to their visit.
+If the user is coming in with an open perspective, a mood of deeper introspection of what to expect on entering, ideally this will bring more value to their visit. 
 
 ### Home page
 The Home page gives a glimpse at what is ahead with a minimalist modern design bringing more emphasis to the images.
@@ -81,6 +81,12 @@ Comparing performance for before & after changes
 ![GTMetrix Performance Report 4](assets/readme-files/gtmetrix-grade.png)
 Constantly using dev tools on google & various other browsers to test new code.
 I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint through the process of building it. I also received some complimentory feedback which really helped with the process of key area's I can improve further.  
+
+### Functions
+-On entering the website via the Introduction page, I used the CSS animation with keyframes to create a vibrant transition between several images. Although I was advised by a user that this does not function as well on Firefox, not recognising the transition, it does create a
+nice slideshow.
+
+
 
 ## Checking Responsiveness
 I used google inspect primaraly to inspect how each the device responded on every page. 

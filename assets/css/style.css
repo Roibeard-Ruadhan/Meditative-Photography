@@ -6,7 +6,7 @@
     border: none;
     box-sizing: border-box;
 }
-/* The use of important to overide bootstrap which is used in Portfolio to make gallery functional */
+/* To keep a consistent format/sturcture around the webpage, I used the * & the body to assign similar characteristics throughout */
 body {
     font-family: 'Josefin Slab', serif !important; 
     color: black;
@@ -18,6 +18,10 @@ body {
     height: 100%;
 }
 /* The Hero image/images are on the introduction page to set a mood before entering the website */
+/* Using alterations from various aspects of the W3scools link attached & various other articles on the CSS animation keyframes,
+ I formed the hero image sequence https://www.w3schools.com/css/css3_animations.asp */
+ /* Using height vh & width vw @ 100 to fill the page */
+ /* Transitioning every 6 seconds */
 .hero-image {
     background-image: url("../images/peace-corn.JPG");
     background-color: rgb(255, 255, 255);
