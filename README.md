@@ -54,8 +54,8 @@ Detail test of all features to assure they are working
 
 ## Validator Testing
 
-[-HTML:No errors were returned when passing through the official](assets/validator-testing/html)
-Nor Errors were returned when passing through W3C Validation Testing
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/image)
+
 ![-CSS:No errors were returned when passing through the official](assets/readme-files/css-val.png)
 
 ## Image Compression
