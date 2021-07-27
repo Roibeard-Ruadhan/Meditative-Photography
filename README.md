@@ -106,8 +106,10 @@ Click on the tab under Source, select Master branch & click save.
 As soon as the above is complete the deployed page url will appear on above Source & it will turn green when it is ready.
 
 ### Ackowledgments
-Felipe Souza Alarcon for all his support & the information he supplied to help build
-Kasia for her neverending support & endless supply of great information in times
+Felipe Souza Alarcon for all his support & the information he supplied to help turn mbs full of images into a functioning website.
+Kasia for her neverending calming support & endless supply of great information. 
+The Tutor, Mentor & Student care teams for putting up with me.
+Last but not least all the slackers on Slack for happily assisting a newbie with any random quieries I might have 
 
 
 
