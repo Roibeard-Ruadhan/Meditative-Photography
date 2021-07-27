@@ -15,6 +15,7 @@ body {
     align-items: center;
     font-size: 2rem;
     font-weight: 500;
+    height: 100%;
 }
 /*Index Page/ Introductory page */
 /* The Hero image/images are on the introduction page to set a mood before entering the website */
@@ -82,13 +83,14 @@ a {
     align-items: center;
 }
 
-*/
+
 /*style button on Entry Page */
 /* I studied stack overflow after discussing why my button was not passing the html validator to find a solution, 
 by adding a class button rather than an actual <button>, you resolve the wrapping of a button using a. Then target using a.button */
 /* I used the font at 500 to make more visible & user friendly */
 /*border radius of 50% was important for me to reduce the formality of a typical button, with a more welcoming rounded edge */
 /* Added more padding as the circular shape is not welcoming for capital letters like the W at the beginning of Welcome */
+
 a.button {
     background-color: #ffffff;
     color: rgb(3, 3, 3);
