@@ -53,15 +53,14 @@ The background image's intention is to set a welcoming atmosphere to invite user
 Detail test of all features to assure they are working
 
 ## Validator Testing
--HTML
-[--No errors were returned when passing through the official](assets/validator-testing/html)
 
--CSS
-![--No errors were returned when passing through the official](assets/validator-testing/readme-files/css-val.png)
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/html)
+
+![-CSS:No errors were returned when passing through the official](assets/readme-files/css-val.png)
 
 ## Image Compression
 I used TinyPNG to compress all of the images on the website to reduce the lag time when loading the page. 
-According to Pingdom, the reduction in image size allowed the pages to load in approximately _______ seconds.
+According to Gtmetrix, the reduction in image size allowed the pages to load in 904ms.
 
 ### User Stories 
 As a user, I would like the opportunity to see the portfolio of other photographers 
@@ -88,9 +87,7 @@ nice slideshow.
 -Due to the large size of the majority of my images above 5mb's, it was a challnge to make a functioning gallery. With the advice & direction of my Mentor I looked into options which allowed me to shrink my images down to a thumbnail size. This allowed me to use limited data
 on page loading. I then linked the thumbnail images to the larger images in my assets folder. When the images are clicked they pop out & give the
 options to scroll, swipe, expand & play. I used limited/basic Javascript to allow the functiong of the lightbox. 
--
-
-
+-Nav images in the home page to link to all pages as a second option to the hamburger button.
 
 ## Checking Responsiveness
 I used google inspect primaraly to inspect how each the device responded on every page. 
