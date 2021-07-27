@@ -93,8 +93,8 @@ I used google inspect primaraly to inspect how each the device responded on ever
 
 When sending to for user testing, I requested them to check on phone/laptop/ipad etc. I received a certain feedback from one person who checked on every browser where I was advised that Firefox browser in particular reacted differently to various functions. The main issue was the on the index.html Instroduction page the images instead of gradually transitioning every 6 seconds, they would slide across the the screen every 6 seconds.
 
-## Unfixed Bugs
-
+## Bugs & other observations
+[Click here for further details on bugs & general observations](/assets/readme-files/bugs-other.md)
 
 ### Deployment
 The site was deployed using GitHub pages. 

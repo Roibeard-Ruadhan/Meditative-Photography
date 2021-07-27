@@ -40,9 +40,8 @@
         <!--Contact table adapted from David Fitas @ https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/-->
         <div id="c-container">
           <form>      
-            <input name="name" type="text" class="feedback-input" placeholder="Name" />  
-
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required>  
+            <input name="email" type="text" class="feedback-input" placeholder="Email" required>
             <!--Radio button for form- Need to adjust name, value etc -->
             <h3>Please select your favourite type of photography:</h3>
             <input type="radio" id="age1" name="age" value="30">
@@ -52,9 +51,10 @@
             <input type="radio" id="age3" name="age" value="100">
             <label for="age3"><strong>Other</strong></label><br><br>
             
-            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea required>
             
             <input type="submit" value="SUBMIT"/>
+            <form action="https://formdump.codeinstitute.net/" method="post" target="_blank"></form>
           </form>
         </div>
       </div>
