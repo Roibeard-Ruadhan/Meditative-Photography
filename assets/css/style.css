@@ -15,7 +15,6 @@ body {
     align-items: center;
     font-size: 2rem;
     font-weight: 500;
-    height: 100%;
 }
 /*Index Page/ Introductory page */
 /* The Hero image/images are on the introduction page to set a mood before entering the website */
@@ -148,7 +147,7 @@ ol li a:hover {
 /* I used 100vw to center it & the 4ems to assst with keeping it at the base of the page */
 .social-networks {
     width: 100vw;
-    height: 4ems;
+    height: 1em;
     align-items: center;
     justify-content: center;
     margin-top: auto;
@@ -215,7 +214,7 @@ nav {
     align-items: center;
     justify-content: center;
     margin-top: auto;
-    height: 4ems;
+    height: 1em;
     bottom:0;
 }
 
@@ -299,7 +298,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: auto;
-    height: 4ems;
+    height: 1em;
     bottom:0;
 }
 
