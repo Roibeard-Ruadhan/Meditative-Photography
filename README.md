@@ -82,9 +82,13 @@ Comparing performance for before & after changes
 Constantly using dev tools on google & various other browsers to test new code.
 I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint through the process of building it. I also received some complimentory feedback which really helped with the process of key area's I can improve further.  
 
-### Functions
+### Functions/ Features
 -On entering the website via the Introduction page, I used the CSS animation with keyframes to create a vibrant transition between several images. Although I was advised by a user that this does not function as well on Firefox, not recognising the transition, it does create a
 nice slideshow.
+-Due to the large size of the majority of my images above 5mb's, it was a challnge to make a functioning gallery. With the advice & direction of my Mentor I looked into options which allowed me to shrink my images down to a thumbnail size. This allowed me to use limited data
+on page loading. I then linked the thumbnail images to the larger images in my assets folder. When the images are clicked they pop out & give the
+options to scroll, swipe, expand & play. I used limited/basic Javascript to allow the functiong of the lightbox. 
+-
 
 
 
