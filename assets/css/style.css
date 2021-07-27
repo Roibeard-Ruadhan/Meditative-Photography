@@ -17,6 +17,7 @@ body {
     font-weight: 500;
     height: 100%;
 }
+/*Index Page/ Introductory page */
 /* The Hero image/images are on the introduction page to set a mood before entering the website */
 /* Using alterations from various aspects of the W3scools link attached & various other articles on the CSS animation keyframes,
  I formed the hero image sequence https://www.w3schools.com/css/css3_animations.asp */
@@ -54,7 +55,8 @@ body {
     }
 
 }
-
+/* I used the opacity of .5 for the logo image only on the index page as I did not want to interfere with the transtioning of the images  */
+/* The logo image has been placed on the intro page wrapped in an <a> tag to allow a second option to access the home page */
 #hero-logo img {
     opacity: .5;
     max-width: 40%;
@@ -66,7 +68,7 @@ body {
 a {
     text-decoration:none;
 }
-/* The logo image has been place on the intro page wrapped in an <a> tag to allow a second option to access the home page */
+/* This logo image is on all pages except the 1st & the last(index.html & contact.html */
 
 #logo img[src="assets/images/logo_small.Jpg"] {
     color: rgb(255, 255, 255);
@@ -80,17 +82,7 @@ a {
     justify-content: center;
     align-items: center;
 }
-/* Container for images?? */
-/*
-.image img {
-    max-height: 300px;
-    max-width: 500px;
-    position:relative;
-    object-fit:contain;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 2px;
-  } 
+
 */
 /*style button on Entry Page */
 /* I studied stack overflow after discussing why my button was not passing the html validator to find a solution, 
@@ -152,6 +144,8 @@ ol li a:hover {
 }
 
 /* Footer */
+/* The footer used on all pages except index.html */
+/* I used 100vw to center it & the 4ems to assst with keeping it at the base of the page */
 .social-networks {
     width: 100vw;
     height: 4ems;
@@ -171,7 +165,7 @@ ol li a:hover {
 
   /* ---HOME PAGE --- */
 /* Home page starts here with h-container for the home system grid */
-
+/* I have removed the code for the Carousel but I left it's postioning for future reference */
 .h-container {
     display: grid;
     height: 100%;
@@ -184,7 +178,7 @@ ol li a:hover {
         "main-header main-header"
         "page-header page-header"
         "container-fluid-1 container-fluid-1"
-   /*   "carousel carousel" The Carousel will be completed here when I am more familiar with bootstrap */
+   /*   "carousel carousel" The Carousel will be completed here in time*/
         "footer footer";  
 }
 nav {
@@ -206,7 +200,6 @@ nav {
 .container-fluid-1 {
     align-items: center;
     max-width: 100%;
-    min-width: 300px; /* Need to fix min width */
     grid-area: container-fluid-1;
     margin: 1rem;
     display: inline-block;
@@ -230,7 +223,7 @@ nav {
 
 .p-container {
     display: grid;
-    max-height: 1300px;
+    height: 1800px;
     min-height:100%;
     width:100%;
     position: relative;
