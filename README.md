@@ -54,10 +54,10 @@ Detail test of all features to assure they are working
 
 ## Validator Testing
 -HTML
---No errors were returned when passing through the official
+[--No errors were returned when passing through the official](assets/validator-testing/html)
 
 -CSS
---No errors were returned when passing through the official 
+![--No errors were returned when passing through the official](assets/validator-testing/readme-files/css-val.png)
 
 ## Image Compression
 I used TinyPNG to compress all of the images on the website to reduce the lag time when loading the page. 
@@ -112,9 +112,7 @@ As soon as the above is complete the deployed page url will appear on above Sour
 Felipe Souza Alarcon for all his support & the information he supplied to help build
 Kasia for her neverending support & endless supply of great information in times
 
-### Content
 
-### Media
 
 
 
