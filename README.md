@@ -54,7 +54,7 @@ Detail test of all features to assure they are working
 
 ## Validator Testing
 
-![-HTML:No errors were returned when passing through the official](assets/validator-testing/image)
+![-HTML:No errors were returned when passing through the official](assets/validator-testing/image/portfolio-val.png)
 
 ![-CSS:No errors were returned when passing through the official](assets/readme-files/css-val.png)
 
