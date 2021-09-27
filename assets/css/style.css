@@ -105,8 +105,8 @@ a.button {
 }
 
 button, a:hover {
-color: rgb(0, 0, 0);
-text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
 /* Pagination adapted from EasyWebCode tutorial on YouTube https://www.youtube.com/watch?v=mU--VbRr-hM  */
@@ -169,7 +169,7 @@ ol li a:hover {
 /* I have removed the code for the Carousel but I left it's postioning for future reference */
 .h-container {
     display: grid;
-    height: 100%;
+    height:100vh; 
     min-height:100%;
     position: relative;
     grid-template-columns: 1fr 1fr; 
