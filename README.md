@@ -18,7 +18,6 @@ If the user is coming in with an open perspective, a mood of deeper introspectio
 ### Home page
 The Home page gives a glimpse at what is ahead with a minimalist modern design bringing more emphasis to the images.
 This page leaves open options to navigate through the website via the more prescriptive Navigation images or the hamburger button on the top right of the screen.
-#Carousel*?? 
 
 ### Nav bar
 Due to the importance of setting the scene for the images, the Navbar is intentionally discrete, as the aim of the page is for a minimalist & professional atmosphere. The intention is to reduce the distractions on display when scrolling through the images. 
@@ -35,7 +34,7 @@ Added a direct link to my Instagram account to allow users' to connect & to view
 
 ### Portfolio 
 The 3-page portfolio is all contained within a plain white background which draws the users' attention to the images. The plain background also allows the images full expression without any external distractions.
-****The images when clicked open up into a window for scanning through the images one by one using bootstrap.* TBC
+The images when clicked open up into a window for scanning through the images one by one using bootstrap.
 
 The page menu was added for ease of access through the portfolio without interfering with the menu.
 The colour of the menu is one of my favourite colours Cyan(colour of the ocean), which is the only other colour used on the website which is not a variant of black or white. 
@@ -82,12 +81,12 @@ Constantly using dev tools on google & various other browsers to test new code.
 I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint through the process of building it. I also received some complimentory feedback which really helped with the process of key area's I can improve further.  
 
 ### Functions/ Features
--On entering the website via the Introduction page, I used the CSS animation with keyframes to create a vibrant transition between several images. Although I was advised by a user that this does not function as well on Firefox, not recognising the transition, it does create a
+- On entering the website via the Introduction page, I used the CSS animation with keyframes to create a vibrant transition between several images. Although I was advised by a user that this does not function as well on Firefox, not recognising the transition, it does create a
 nice slideshow.
--Due to the large size of the majority of my images above 5mb's, it was a challnge to make a functioning gallery. With the advice & direction of my Mentor I looked into options which allowed me to shrink my images down to a thumbnail size. This allowed me to use limited data
+- Due to the large size of the majority of my images above 5mb's, it was a challnge to make a functioning gallery. With the advice & direction of my Mentor I looked into options which allowed me to shrink my images down to a thumbnail size. This allowed me to use limited data
 on page loading. I then linked the thumbnail images to the larger images in my assets folder. When the images are clicked they pop out & give the
 options to scroll, swipe, expand & play. I used limited/basic Javascript to allow the functiong of the lightbox. 
--Nav images in the home page to link to all pages as a second option to the hamburger button.
+- Nav images in the home page to link to all pages as a second option to the hamburger button.
 
 ## Checking Responsiveness
 I used google inspect primaraly to inspect how each the device responded on every page. 
@@ -106,7 +105,7 @@ Click on the tab under Source, select Master branch & click save.
 As soon as the above is complete the deployed page url will appear on above Source & it will turn green when it is ready.
 
 ### Ackowledgments
-Felipe Souza Alarcon for all his support & the information he supplied to help turn mbs full of images into a functioning website.
+My Mentor Felipe Souza Alarcon for all his support & the information he supplied to help turn mbs full of images into a functioning website.
 Kasia for her neverending calming support & endless supply of great information. 
 The Tutor, Mentor & Student care teams for putting up with me.
 Last but not least all the slackers on Slack for happily assisting a newbie with any random quieries I might have 
