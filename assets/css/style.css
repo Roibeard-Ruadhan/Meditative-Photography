@@ -300,7 +300,7 @@ in colour by using the filter 75% to 100% after hover. With a .5 second transiti
 .item-potrait {
     filter: brightness(75%);
     transition: .5s ease-in-out;
-    min-width: 261px;
+    width: 261px;
     height: 322px;
     overflow: hidden;
     object-fit: cover;
@@ -308,9 +308,10 @@ in colour by using the filter 75% to 100% after hover. With a .5 second transiti
 }
 
 .item-potrait img {
-    min-width: 261px;
+    width: 261px;
     height: 322px;
     position: relative;
+    padding-bottom: 1rem;
 }
 
 footer {
