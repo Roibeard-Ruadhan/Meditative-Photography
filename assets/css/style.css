@@ -222,7 +222,7 @@ nav {
 
 /* .p-container for the Portfolia page Grid */
 
-.p-container {
+/* .p-container {
     display: grid;
     height: 100vh;
     min-height:100%;
@@ -238,7 +238,7 @@ nav {
         "pagination pagination"
         "container-fluid container-fluid"
         "footer footer";
-}
+} */
 
 nav {
     grid-area: nav;
@@ -257,26 +257,28 @@ nav {
     justify-content: center;
 }
 /* Container within the main container to keep the image structure */
-.container-fluid {
+/* .container-fluid {
     height: 100%;
     align-items: center;
     max-width: 100%;
     min-width: 300px; 
     grid-area: container-fluid;
     padding-bottom: 1rem !important;
-}
+} */
 
 .image {
 /*   display: inline-block;  */
     margin-bottom: 1rem;
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: auto;
+
 }
 
-.item:hover {
+.item:hover,
+.item-potrait:hover {
      filter: brightness(100%);
-     transform: scale(1.1);
+     transform: scale(1.08);
 }
 /* To give the effect of when you scroll of the image with finger or mouse it will expand slightly & enhance slightly 
 in colour by using the filter 75% to 100% after hover. With a .5 second transition time. 1rem to leave space between images */
@@ -285,12 +287,30 @@ in colour by using the filter 75% to 100% after hover. With a .5 second transiti
     transition: .5s ease-in-out;
     padding-bottom: 1rem;
     width: 100%;
-
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
 }
 .item img {
-    max-width: 100%;
-    height:inherit;
-    position: relative; /* Removed Display: Flexbox; as it will only fail the exam for you & you will never know what your endless works actual percetage mark is. */
+    max-width: 261px;
+    height: 195px;
+    position: relative; /* Removed Display: Flexbox;. */
+}
+
+.item-potrait {
+    filter: brightness(75%);
+    transition: .5s ease-in-out;
+    min-width: 261px;
+    height: 322px;
+    overflow: hidden;
+    object-fit: cover;
+    padding-bottom: 3rem;
+}
+
+.item-potrait img {
+    min-width: 261px;
+    height: 322px;
+    position: relative;
 }
 
 footer {
